@@ -172,6 +172,5 @@ nav a button {
   max-width: 90%; /* Limit the width of the h4 */
   line-height: 2; /* Adjust line height for better spacing */
   word-wrap: break-word; /* Ensure text wraps within the container */
-  text-align:right; */
-  
+  text-align:right; 
 }
