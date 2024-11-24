@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <!-- Navigation Bar -->
     <nav>
-      <img src="images/logo.jpg" alt="CHMD Logo" class="nav-logo" />
       <div class="navtext">
         <a href="home.html">HOME</a>
         <a href="admission.html">ADMISSION</a>
@@ -19,58 +17,58 @@
         <a href="notices.html">NOTICES</a>
         <a href="login.html"><button>LOG IN</button></a>
       </div>
+      <img src="images/logo.jpg" alt="CHMD Logo" class="nav-logo" />
     </nav>
-
-    <!-- Carousel Section -->
     <div class="carousel">
       <div class="carousel-images">
-        <img src="images/homeimg1.jpg" alt="Learning environment 1" />
-        <img src="images/homeimg2.jpg" alt="Learning environment 2" />
-        <img src="images/homeimg3.jpg" alt="Learning environment 3" />
+        <img src="images/homeimg1.jpg" alt="Image 1" />
+        <img src="images/homeimg2.jpg" alt="Image 2" />
+        <img src="images/homeimg3.jpg" alt="Image 3" />
       </div>
     </div>
-
-    <!-- Welcome Section -->
-    <section class="welcome">
+    <div class="welcome">
       <h2>Welcome to Children House Elementary School</h2>
-      <p>
-        At Children’s House Montessori, we believe that each child is a unique
-        individual who needs a secure, caring, and stimulating atmosphere to
-        grow emotionally, intellectually, and socially. Our Montessori-based
-        approach to education is designed to foster independence, critical
-        thinking, and a lifelong love of learning. From ages 2 to 9, we offer an
-        enriching curriculum that inspires students to explore, discover, and
-        engage with the world around them.
-      </p>
-    </section>
+    </div>
+    <div class="start">
+      <h4>“At Children’s House Montessori, we believe that each child is a unique individual who needs a secure, caring,
+      and stimulating atmosphere to grow emotionally, intellectually, and socially. Our Montessori-based approach to 
+      education is designed to foster independence, critical thinking, and a lifelong love of learning. 
+      From ages 2 to 9, we offer an enriching curriculum that inspires students to explore, discover, and
+      engage with the world around them.”</h4>
+    </div>
+    <div class="image-container">
+      <div class="first">
+        <img src="images/Rectangle 3.png" alt="SCL">
+        </div>
+        <div class="second">
+          <img src="images/Rectangle 4.png" alt="HOL">
+        </div>
+        <div class="third">
+        <img src="images/Rectangle 5.png" alt="SFL">
+        </div>
+    </div>
+      
+        
+        <div class="one">
+          <img src="images/rect3.png" alt="symbol">
+          <h3>Student Centered Learning</h3>
+        </div>
+        <div class="two">
+          <img src="images/rect 4.png" alt="symbol">
+          <h3>Hands-On Activities</h3>
+        </div>
+        <div class="three">
+          <img src="images/rect5.png" alt="symbol">
+          <h3>Strong Foundation For<br> Lifelong Learning</h3>
+        </div>
+        <div class="community">
+          <h2>JOIN OUR CHILDREN HOUSE FAMILY</h2>
+          <h4>
+            “At Children’s House Montessori, we believe that each child is a unique individual who needs a secure,<br> caring, and stimulating atmosphere to grow emotionally, intellectually, and socially. Our Montessori-based approach to education is designed to foster independence, critical thinking, and a lifelong love of learning. From ages 2 to 9, we offer an enriching curriculum that inspires students to explore, discover, and engage with the world around them.”
+          </h4>
+        </div>
 
-    <!-- Features Section -->
-    <section class="features">
-      <div class="feature">
-        <img src="images/rect3.png" alt="Student-Centered Learning Icon" />
-        <h3>Student-Centered Learning</h3>
-      </div>
-      <div class="feature">
-        <img src="images/rect4.png" alt="Hands-On Activities Icon" />
-        <h3>Hands-On Activities</h3>
-      </div>
-      <div class="feature">
-        <img src="images/rect5.png" alt="Lifelong Learning Icon" />
-        <h3>Strong Foundation for Lifelong Learning</h3>
-      </div>
-    </section>
-
-    <!-- Community Section -->
-    <section class="community">
-      <h2>Join Our Children House Family</h2>
-      <p>
-        We invite you to be part of our inspiring and nurturing environment. With
-        a dedicated focus on holistic development, we ensure every child’s
-        journey is unique and fulfilling.
-      </p>
-    </section>
-
-    <!-- JavaScript -->
+    
     <script>
       let index = 0;
       const images = document.querySelectorAll(".carousel-images img");
@@ -79,7 +77,9 @@
       function showNextImage() {
         index = (index + 1) % totalImages;
         const offset = -index * 100;
-        document.querySelector(".carousel-images").style.transform = `translateX(${offset}%)`;
+        document.querySelector(
+          ".carousel-images"
+        ).style.transform = translateX(${offset}%);
       }
 
       setInterval(showNextImage, 3000); // Change image every 3 seconds
