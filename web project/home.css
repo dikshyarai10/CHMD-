@@ -154,10 +154,8 @@ nav a button {
   width: 100vw;
   height: 575px;
   background-color: #c3cacd;
-  color: white;
-  text-align: center;
+ 
   line-height: 200px;
-  font-size: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -170,9 +168,10 @@ nav a button {
   padding-right: 150px;
 }
 .community h4{
-  font-size: 14px; /* Smaller font size to fit text within space */
+  /* font-size: 14px; /* Smaller font size to fit text within space */
   max-width: 90%; /* Limit the width of the h4 */
   line-height: 2; /* Adjust line height for better spacing */
   word-wrap: break-word; /* Ensure text wraps within the container */
-  text-align:right;
+  text-align:right; */
+  
 }
