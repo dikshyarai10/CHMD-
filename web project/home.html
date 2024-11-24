@@ -28,41 +28,46 @@
     </div>
     <div class="welcome">
       <h2>Welcome to Children House Elementary School</h2>
-      <h2>Hello world</h2>
     </div>
     <div class="start">
       <h4>“At Children’s House Montessori, we believe that each child is a unique individual who needs a secure, caring,
-      and stimulating atmosphere to grow emotionally, intellectually, and socially.<br> Our Montessori-based approach to 
+      and stimulating atmosphere to grow emotionally, intellectually, and socially. Our Montessori-based approach to 
       education is designed to foster independence, critical thinking, and a lifelong love of learning. 
-      From ages 2 to 9, we offer an enriching curriculum that <br>  inspires students to explore, discover, and
+      From ages 2 to 9, we offer an enriching curriculum that inspires students to explore, discover, and
       engage with the world around them.”</h4>
     </div>
-      <div class="image-container">
-        <img src="images/homemiddle2.jpg" alt="SCL">
-        <img src="images/homemiddle.jpg" alt="HOL">
-        <img src="images/homemiddle3.jpg" alt="SFL">
+    <div class="image-container">
+      <div class="first">
+        <img src="images/Rectangle 3.png" alt="SCL">
+        </div>
+        <div class="second">
+          <img src="images/Rectangle 4.png" alt="HOL">
+        </div>
+        <div class="third">
+        <img src="images/Rectangle 5.png" alt="SFL">
+        </div>
+    </div>
+      
+        
         <div class="one">
+          <img src="images/rect3.png" alt="symbol">
           <h3>Student Centered Learning</h3>
         </div>
         <div class="two">
+          <img src="images/rect 4.png" alt="symbol">
           <h3>Hands-On Activities</h3>
         </div>
         <div class="three">
+          <img src="images/rect5.png" alt="symbol">
           <h3>Strong Foundation For<br> Lifelong Learning</h3>
         </div>
-        
-      </div>
-      <div class="grey">
         <div class="community">
           <h2>JOIN OUR CHILDREN HOUSE FAMILY</h2>
-            <h4 class="pp">"CHMD provided an incredible foundation for my children’s futures.
-              The school’s caring <br>and dedicated teachers nurtured their academic
-              and personal growth, instilling values like <br>resilience and kindness
-              that they carry with them to this day. We’re proud to be part of the<br>
-              CHMD community and deeply grateful for the positive impact it’s had
-              on our family."</h4>
+          <h4>
+            “At Children’s House Montessori, we believe that each child is a unique individual who needs a secure,<br> caring, and stimulating atmosphere to grow emotionally, intellectually, and socially. Our Montessori-based approach to education is designed to foster independence, critical thinking, and a lifelong love of learning. From ages 2 to 9, we offer an enriching curriculum that inspires students to explore, discover, and engage with the world around them.”
+          </h4>
         </div>
-      </div>
+
     
     <script>
       let index = 0;
@@ -74,7 +79,7 @@
         const offset = -index * 100;
         document.querySelector(
           ".carousel-images"
-        ).style.transform = `translateX(${offset}%)`;
+        ).style.transform = translateX(${offset}%);
       }
 
       setInterval(showNextImage, 3000); // Change image every 3 seconds
