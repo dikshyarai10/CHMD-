@@ -35,6 +35,8 @@ nav a button {
   font-family: "Georgia", serif;
   font-size: 18px;
   font-weight: bold;
+  border: solid 1px;
+  border-color: white;
 }
 
 .navtext {
@@ -74,7 +76,7 @@ nav a button {
   margin-bottom: 40px;
 }
 
-.start h4{
+.start h4 {
   font-family: "Lalezar", cursive;
   color: #0d0d0d;
   text-align: center;
@@ -121,15 +123,15 @@ nav a button {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding-bottom: 70px;
 }
- .one img{
+.one img {
   padding-left: 130px;
- }
+}
 
 .one {
   left: 15%;
   transform: translate(-50%, -50%);
 }
-.two img{
+.two img {
   padding-left: 60px;
 }
 
@@ -138,10 +140,10 @@ nav a button {
   transform: translate(-50%, -50%);
 }
 
-.three img{
+.three img {
   padding-top: 10px;
   width: 100px;
-} 
+}
 
 .three {
   right: 15%;
@@ -178,11 +180,11 @@ nav a button {
   padding-left: 200px;
   background-color: white;
   margin-top: 200px;
-  padding-right: 100px;  
+  padding-right: 100px;
   position: relative;
-    top: -50px;
-    right: -250px;
-    border-radius: 10px;
+  top: -50px;
+  right: -250px;
+  border-radius: 10px;
 }
 
 .text-content h2 {
@@ -191,7 +193,7 @@ nav a button {
   color: black;
   margin-bottom: -120px;
   text-align: Right;
-  padding-right:350px;
+  padding-right: 350px;
   margin-right: 0;
 }
 
@@ -199,7 +201,7 @@ nav a button {
   max-width: 50%; /* Limit the width of the h4 */
   line-height: 2; /* Adjust line height for better spacing */
   word-wrap: break-word; /* Ensure text wraps within the container */
-  text-align: justify; 
+  text-align: justify;
   margin-left: 10px; /* Adjust left margin */
   margin-right: 0; /* Remove excessive right margin */
   padding-bottom: 40px;
@@ -210,17 +212,16 @@ nav a button {
   padding-left: 350px; /* Remove large padding-left */
   font-weight: normal;
   font-size: 20px;
-  
 }
 
 .text-content h3 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: 50;
   margin-bottom: -120px;
-  text-align:center;
+  text-align: center;
   padding-left: -100px;
-  padding-right:230px;
+  padding-right: 230px;
   margin-right: 0;
 }
 .community img {
@@ -229,4 +230,3 @@ nav a button {
   padding-bottom: 100px; /* Ensure this remains consistent with your design */
   z-index: 1;
 }
-  

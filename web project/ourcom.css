@@ -35,6 +35,8 @@ nav a button {
   font-family: "Georgia", serif;
   font-size: 18px;
   font-weight: bold;
+  border: solid 1px;
+  border-color: white;
 }
 
 .navtext {
