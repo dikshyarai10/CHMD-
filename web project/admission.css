@@ -50,3 +50,36 @@ nav a button {
   margin-top: -50px;
   margin-left: 10px;
 }
+
+h1 {
+  margin-left: 680px;
+}
+h2 {
+  margin-left: 100px;
+}
+.admission-section {
+  display: flex; /* Align children in a row */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Create consistent spacing between the list and image */
+  max-width: 900px; /* Limit the width of the section */
+  margin: auto; /* Center the section on the page */
+}
+
+.admission-list {
+  list-style-type: disc; /* Keep the default bullet styling */
+  margin: 0; /* Remove default margins */
+  padding-left: 20px; /* Add padding for better alignment */
+  flex: 2; /* Allow the list to take up more space */
+  line-height: 2; /* Adjust line height for readability */
+}
+
+.adimg1 {
+  flex: 1; /* Let the image take up less space */
+  text-align: right; /* Align the image container to the right */
+}
+
+.adimg1 img {
+  width: 150px; /* Adjust image size */
+  height: auto; /* Maintain aspect ratio */
+}
