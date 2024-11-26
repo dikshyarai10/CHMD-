@@ -180,9 +180,20 @@ nav a button {
   margin-top: 200px;
   padding-right: 100px;  
   position: relative;
-    top: -50px;
+  left: 10%;
+    top: -75px;
     right: -250px;
     border-radius: 10px;
+}
+.small-box{
+  width: 15px;
+  height: 100px;
+  background-color: rgb(24, 151, 201);
+  margin: 10px 0;
+  position: absolute; /* Allows precise placement */
+  right: 55%; /* Aligns the element to the right edge */
+  transform: translateY(110%); /* Centers the element vertically */
+  
 }
 
 .text-content h2 {
@@ -191,7 +202,7 @@ nav a button {
   color: black;
   margin-bottom: -120px;
   text-align: Right;
-  padding-right:350px;
+  padding-right:250px;
   margin-right: 0;
 }
 
@@ -207,7 +218,7 @@ nav a button {
   margin-top: 50px;
   font-style: inherit;
   font-family: Hannari;
-  padding-left: 350px; /* Remove large padding-left */
+  padding-left: 470px; /* Remove large padding-left */
   font-weight: normal;
   font-size: 20px;
   
@@ -219,14 +230,15 @@ nav a button {
   font-weight: 50;
   margin-bottom: -120px;
   text-align:center;
-  padding-left: -100px;
+  padding-left: -120px;
   padding-right:230px;
   margin-right: 0;
 }
 .community img {
-  margin-left: -200px;
-  margin-top: 95px; /* Adjust this value to move the image downward */
+  margin-left: -300px;
+  margin-top: 74px; /* Adjust this value to move the image downward */
   padding-bottom: 100px; /* Ensure this remains consistent with your design */
   z-index: 1;
 }
+
   
