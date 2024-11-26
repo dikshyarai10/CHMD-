@@ -241,3 +241,17 @@ nav a button {
   padding-bottom: 100px; /* Ensure this remains consistent with your design */
   z-index: 1;
 }
+.Contacthome{
+  width: 1440px; /* Use percentage for responsiveness */
+  height: 414px;
+  display: block; /* `inline-block` is unnecessary for this layout */
+  border: 2px solid #05A4E5;
+  padding: 5px 100px 5px 200px; /* Shortened padding syntax */
+  margin: 200px auto 20px; /* Center the box and add vertical spacing */
+  background-color: #05A4E5; /* Hex value corrected (missing #) */
+  position: relative;
+}
+.Contacthome img{
+  height: 9px;
+  width: 13px;
+}
