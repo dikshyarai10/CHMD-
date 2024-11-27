@@ -183,11 +183,11 @@ nav a button {
   padding-right: 100px;
   position: relative;
   left: 10%;
-    top: -75px;
-    right: -250px;
-    border-radius: 10px;
+  top: -75px;
+  right: -250px;
+  border-radius: 10px;
 }
-.small-box{
+.small-box {
   width: 15px;
   height: 100px;
   background-color: rgb(24, 151, 201);
@@ -195,7 +195,6 @@ nav a button {
   position: absolute; /* Allows precise placement */
   right: 55%; /* Aligns the element to the right edge */
   transform: translateY(110%); /* Centers the element vertically */
-  
 }
 
 .text-content h2 {
@@ -204,7 +203,7 @@ nav a button {
   color: black;
   margin-bottom: -120px;
   text-align: Right;
-  padding-right:250px;
+  padding-right: 250px;
   margin-right: 0;
 }
 
