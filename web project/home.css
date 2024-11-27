@@ -243,7 +243,7 @@ nav a button {
 }
 .Contacthome{
   width: 1220px; /* Use percentage for responsiveness */
-  height: 400px;
+  height: 440px;
   display: block; /* `inline-block` is unnecessary for this layout */
   border: 2px solid #05A4E5;
   padding: 5px 100px 5px 200px; /* Shortened padding syntax */
@@ -322,7 +322,8 @@ nav a button {
   margin-left: 830px;
   margin-top: -219px;
   font-family: Sansation;
-  color: #FFFCFC;
+  color: #FFFCFC;  
+  align-items: center;
   font-weight: normal;
   width: 304px;
   height: 38px;
@@ -334,6 +335,7 @@ nav a button {
   padding-left:1100px;
   transform: scale(0.6);
   padding-top: 140px;
+  
 }
 .phonenum{
   width: 477px;
@@ -378,4 +380,11 @@ nav a button {
   margin-left: 860px;
   margin-top: -110px;
   font-weight: normal;
+}
+.Copyright{
+  font-family: sansation;
+  font-size: 20px;
+  margin-top: -155px;
+  color: white;
+  
 }
