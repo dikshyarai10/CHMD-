@@ -68,15 +68,21 @@ h2 {
 
 .admission-list {
   list-style-type: disc; /* Keep the default bullet styling */
-  margin: 0; /* Remove default margins */
-  padding-left: 20px; /* Add padding for better alignment */
+  margin-left: -300px; /*Remove default margins */
+  padding-left: 20px; /*Add padding for better alignment*/
   flex: 2; /* Allow the list to take up more space */
   line-height: 2; /* Adjust line height for readability */
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  margin-right: 20%;
+  padding-right: 40px;
 }
 
 .adimg1 {
   flex: 1; /* Let the image take up less space */
   text-align: right; /* Align the image container to the right */
+  margin-left: 90%;
 }
 
 .adimg1 img {
