@@ -169,7 +169,6 @@ nav a button {
   align-items: flex-start; /* Aligns items at the top */
   justify-content: flex-start; /* Aligns items to the left */
 }
-
 .inline-box {
   width: 200px;
   height: 300px;
@@ -182,12 +181,12 @@ nav a button {
   margin-top: 200px;
   padding-right: 100px;
   position: relative;
-  left: 10%;
-  top: -75px;
+  top: -50px;
   right: -250px;
   border-radius: 10px;
 }
-.small-box {
+
+.smallbox{
   width: 15px;
   height: 100px;
   background-color: rgb(24, 151, 201);
@@ -195,6 +194,7 @@ nav a button {
   position: absolute; /* Allows precise placement */
   right: 55%; /* Aligns the element to the right edge */
   transform: translateY(110%); /* Centers the element vertically */
+  
 }
 
 .text-content h2 {
@@ -203,7 +203,7 @@ nav a button {
   color: black;
   margin-bottom: -120px;
   text-align: Right;
-  padding-right: 250px;
+  padding-right:250px;
   margin-right: 0;
 }
 
@@ -212,7 +212,7 @@ nav a button {
   line-height: 2; /* Adjust line height for better spacing */
   word-wrap: break-word; /* Ensure text wraps within the container */
   text-align: justify;
-  margin-left: 10px; /* Adjust left margin */
+  margin-left: -55px; /* Adjust left margin */
   margin-right: 0; /* Remove excessive right margin */
   padding-bottom: 40px;
   margin-bottom: -120px;
@@ -235,8 +235,8 @@ nav a button {
   margin-right: 0;
 }
 .community img {
-  margin-left: -300px;
-  margin-top: 74px; /* Adjust this value to move the image downward */
+  margin-left: -190px;
+  margin-top: 98px; /* Adjust this value to move the image downward */
   padding-bottom: 100px; /* Ensure this remains consistent with your design */
   z-index: 1;
 }
