@@ -50,6 +50,13 @@ h5 {
   position: relative;
   left: 110%;
   margin-top: 14%;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a hover effect for the bell icon */
+}
+
+/* When the bell is hovered, change its color slightly */
+.bell:hover {
+  filter: brightness(1.2);
 }
 .msgicon {
   position: relative;
