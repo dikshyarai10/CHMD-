@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 nav {
@@ -100,16 +102,16 @@ nav a button {
    letter-spacing: 6%;
    align-items: center;
 }
-/* .firstp{
+ .firstp{
   width: 479px;
   height: 450px;
   transform: translateX(200px);
 } */
-/* .secondp{
+.secondp{
   width: 479px;
   height: 450px;
   transform: translateX(450px);
-} */
+}
 .firstmini {
   width: 479px;        /* Width of the image */
   height: 233px;       /* Height of the image */
@@ -120,14 +122,18 @@ nav a button {
   margin-left: 100px;
 }
 .box{
-  width: 479px;
-    height: 3px;
-    color: gray; /* Sets the text color to gray */
-    border-radius: 2px; /* Rounds the corners of the box */
-    border: 2px solid #ccc; /* Optional: Adds a light border around the box */
-    padding: 20px; /* Adds some internal spacing for the content */
-    background-color: #f9f9f9; /* Optional: Adds a background color */
+  width: 390px;
+  height: 500px;
+  background-color: #c3cacd;
+  line-height: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Distributes space between content */
+  padding: 20px;
+  margin-left: 100px;
 }
+
 .jdiploma{
   width: 239px;
   height: 103px;
