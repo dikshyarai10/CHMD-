@@ -1,3 +1,4 @@
+//dashmenu
 document.addEventListener("DOMContentLoaded", function () {
   const menudataIcon = document.querySelector(".menudata_icon");
   const dash1 = document.querySelector(".dash1");
