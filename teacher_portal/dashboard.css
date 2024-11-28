@@ -86,6 +86,16 @@ h5 {
   width: 20px;
   height: 20px;
   margin-top: -20%;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+.menudata_icon:hover {
+  transform: scale(1.2); /* Enlarge icon on hover */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+}
+
+.dash1,
+.dash2 {
+  transition: opacity 0.3s ease; /* Smooth fade in/out */
 }
 .dash1 {
   background-color: #037dae;
@@ -314,4 +324,24 @@ h5 {
   left: 20%;
   top: 50%;
   font-weight: bold;
+}
+/* Hover Effect for Boxes */
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+  transform: scale(1.05); /* Slightly enlarge the box */
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
