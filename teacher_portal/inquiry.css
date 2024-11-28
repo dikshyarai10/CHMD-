@@ -86,6 +86,16 @@ h5 {
   width: 20px;
   height: 20px;
   margin-top: -20%;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+.menudata_icon:hover {
+  transform: scale(1.2); /* Enlarge icon on hover */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+}
+
+.dash1,
+.dash2 {
+  transition: opacity 0.3s ease; /* Smooth fade in/out */
 }
 .dash1 {
   background-color: #037dae;
