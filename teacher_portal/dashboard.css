@@ -63,7 +63,7 @@ h5 {
 }
 .menuchmd {
   background-color: #037dae;
-  width: 323px;
+  width: 321px;
   height: 76px;
   border: white solid 5px;
 }
@@ -124,4 +124,98 @@ h5 {
   left: 21%;
 }
 .enquiryicon {
+  display: inline-block;
+  position: relative;
+  left: 18%;
+  width: 15px;
+  height: 15px;
+  margin-top: 15px;
+}
+.dash2 p {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 5%;
+  left: 21%;
+}
+.branchname {
+  position: absolute;
+  top: 115px; /* Adjust as needed */
+  left: 25%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #0ca6e4;
+}
+.box1 {
+  position: absolute;
+  top: 210px; /* Adjust as needed */
+  left: 30%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box2 {
+  position: absolute;
+  top: 210px; /* Adjust as needed */
+  left: 55%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box3 {
+  position: absolute;
+  top: 210px; /* Adjust as needed */
+  left: 80%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box4 {
+  position: absolute;
+  top: 480px; /* Adjust as needed */
+  left: 30%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box5 {
+  position: absolute;
+  top: 480px; /* Adjust as needed */
+  left: 55%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box6 {
+  position: absolute;
+  top: 480px; /* Adjust as needed */
+  left: 80%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
 }
