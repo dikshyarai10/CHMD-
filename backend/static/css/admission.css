@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #05a4e5;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+nav a {
+  padding-top: 1em;
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 7px solid rgb(0, 0, 0);
+  padding-bottom: 36px;
+  margin-bottom: 0;
+}
+
+nav a button {
+  background-color: #009d4f;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 1px;
+  border-color: white;
+}
+
+.navtext {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.nav-logo {
+  width: 15vh;
+  height: 10vh;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+h1 {
+  margin-left: 680px;
+}
+h2 {
+  margin-left: 100px;
+}
+.admission-section {
+  display: flex; /* Align children in a row */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Create consistent spacing between the list and image */
+  max-width: 900px; /* Limit the width of the section */
+  margin: auto; /* Center the section on the page */
+}
+
+.admission-list {
+  list-style-type: disc; /* Keep the default bullet styling */
+  margin-left: -300px; /*Remove default margins */
+  padding-left: 20px; /*Add padding for better alignment*/
+  flex: 2; /* Allow the list to take up more space */
+  line-height: 2; /* Adjust line height for readability */
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  margin-right: 20%;
+  padding-right: 40px;
+}
+
+.adimg1 {
+  flex: 1; /* Let the image take up less space */
+  text-align: right; /* Align the image container to the right */
+  margin-left: 90%;
+}
+
+.adimg1 img {
+  width: 150px; /* Adjust image size */
+  height: auto; /* Maintain aspect ratio */
+}

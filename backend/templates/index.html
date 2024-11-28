@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CHMD</title>
-    <link rel="stylesheet" href="home.css" />
+    {% load static %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}" />
   </head>
   <body>
     <nav>
@@ -17,13 +18,13 @@
         <a href="notices.html">NOTICES</a>
         <a href="login.html"><button>LOG IN</button></a>
       </div>
-      <img src="images/logo.jpg" alt="CHMD Logo" class="nav-logo" />
+      <img src="{% static 'images/logo.jpg' %}" alt="CHMD Logo" class="nav-logo" />
     </nav>
     <div class="carousel">
       <div class="carousel-images">
-        <img src="images/homeimg1.jpg" alt="Image 1" />
-        <img src="images/homeimg2.jpg" alt="Image 2" />
-        <img src="images/homeimg3.jpg" alt="Image 3" />
+        <img src="{% static 'images/homeimg1.jpg' %}" alt="Image 1" />
+        <img src="{%static 'images/homeimg2.jpg' %}" alt="Image 2" />
+        <img src="{%static 'images/homeimg3.jpg' %}" alt="Image 3" />
       </div>
     </div>
     <div class="welcome">
@@ -42,33 +43,33 @@
     </div>
     <div class="image-container">
       <div class="first">
-        <img src="images/Rectangle 3.png" alt="SCL" />
+        <img src="{%static 'images/Rectangle 3.png' %}" alt="SCL" />
       </div>
       <div class="second">
-        <img src="images/Rectangle 4.png" alt="HOL" />
+        <img src="{%static 'images/Rectangle 4.png' %}" alt="HOL" />
       </div>
       <div class="third">
-        <img src="images/Rectangle 5.png" alt="SFL" />
+        <img src="{%static 'images/Rectangle 5.png' %}" alt="SFL" />
       </div>
     </div>
 
     <div class="one">
-      <img src="images/rect3.png" alt="symbol">
+      <img src="{%static 'images/rect3.png' %}" alt="symbol">
       <h3>Student Centered Learning</h3>
     </div>
     <div class="two">
-      <img src="images/rect 4.png" alt="symbol">
+      <img src="{%static 'images/rect 4.png' %}" alt="symbol">
       <h3>Hands-On Activities</h3>
     </div>
     <div class="three">
-      <img src="images/rect5.png" alt="symbol">
+      <img src="{%static 'images/rect5.png' %}" alt="symbol">
       <h3>Strong Foundation For<br> Lifelong Learning</h3>
     </div>
     <div class="community">
       <div class="community-content">
         <!-- Inline Box on the Left -->
         <span class="inline-box"></span>
-        <img src="images/Group.png" alt="photo">
+        <img src="{%static 'images/Group.png' %}" alt="photo">
         <!-- Text Content -->
          <span class="smallbox"></span>
         <div class="text-content">
@@ -81,16 +82,16 @@
       </div>
         </div>
         <div class="Contacthome">
-          <img src="images/logo.jpg" alt="CHM">
+          <img src="{%static 'images/logo.jpg' %}" alt="CHM">
           <h4> CHILDREN'S HOUSE MONTESSORI <br> ELEMENTARY SCHOOL</h4>
           <h2 class="quick"> Quick Links</h2>
           <h2 class="contact-info"> Contact Info</h2>
         
-        <img src="images/Frame.png" alt="location" class="locationmap"> 
-        <img src="images/map.png" alt="Location" class="map">
-        <img src="images/Vector (2).png" alt="phone" class="phone">
-        <img src="images/Frame (2).png" alt="Mobilenumber" class="mobile">
-        <img src="images/Frame (3).png" alt="Email" class="email">
+        <img src="{%static 'images/Frame.png' %}" alt="location" class="locationmap"> 
+        <img src="{%static 'images/map.png' %}" alt="Location" class="map">
+        <img src="{%static 'images/Vector (2).png' %}" alt="phone" class="phone">
+        <img src="{%static 'images/Frame (2).png' %}" alt="Mobilenumber" class="mobile">
+        <img src="{%static 'images/Frame (3).png' %}" alt="Email" class="email">
         <div class="navtext">
           <a href="home.html">Home</a>
         <a href="admission.html">Admission</a>
