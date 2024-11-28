@@ -112,26 +112,30 @@ nav a button {
   height: 450px;
   transform: translateX(450px);
 }
-.firstmini {
-  width: 479px;        /* Width of the image */
-  height: 233px;       /* Height of the image */
-  transform: translateY(250px); /* Moves the image upward within the .firstp box */
-  opacity: 100%;       /* Ensures full visibility */
-      /* Makes sure the image is on top */
-  position: absolute;  /* Makes the image move independently from .firstp */
-  margin-left: 100px;
-}
+
 .box{
-  width: 390px;
-  height: 500px;
-  background-color: #c3cacd;
+  width: 355px;
+  height: 370px;
+  background-color: #e8eff3;
   line-height: 200px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: black;
   display: flex;
   align-items: center; /* Vertically centers the content */
   justify-content: space-between; /* Distributes space between content */
   padding: 20px;
   margin-left: 100px;
+  opacity: 100%;
+  stroke: black;
+}
+.firstmini {
+  width: 393px;        /* Width of the image */
+  height: 250px;       /* Height of the image */
+  transform: translateY(-409px); /* Moves the image upward within the .firstp box */
+  opacity: 100%;       /* Ensures full visibility */
+      /* Makes sure the image is on top */
+  position: absolute;  /* Makes the image move independently from .firstp */
+  margin-left: 100px;
+  
 }
 
 .jdiploma{
@@ -140,6 +144,26 @@ nav a button {
   opacity: 100%;
   font-family: Palatino Linotype;
   font-size: 30px;
+  transform: translateY(-190px);
+  margin-left: 120px;
+  font-weight: lighter;
+}
+.paradiploma{
+  font-family: Raleway;
+  transform: translateY(-275px);
+  margin-left: 120px;
+  font-size: 15px;
+  opacity: 100%;
+  word-spacing: 2px;
+}
+.diplomadetails{
+  font-family: Raleway;
+  transform: translateY(-275px);
+  margin-left: 120px;
+  font-size: 14px;
+  opacity: 100%;
+  font-weight: lighter;
+  word-spacing: 2px;
 
 }
 .secondmini{
