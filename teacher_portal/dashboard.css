@@ -27,3 +27,9 @@ h5 {
   position: relative;
   left: 40%;
 }
+
+.tname {
+  position: relative;
+  left: 42%;
+  display: inline-block;
+}
