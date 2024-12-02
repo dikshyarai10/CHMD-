@@ -128,16 +128,6 @@ nav a button {
 
 }
 .firstmini {
-<<<<<<< HEAD
-  width: 393px;        /* Width of the image */
-  height: 250px;       /* Height of the image */
-  transform: translateY(-409px); /* Moves the image upward within the .firstp box */
-  opacity: 100%;       /* Ensures full visibility */
-      /* Makes sure the image is on top */
-  position: absolute;  /* Makes the image move independently from .firstp */
-  margin-left: 170px;
-  
-=======
   width: 393px; /* Width of the image */
   height: 250px; /* Height of the image */
   transform: translateY(
@@ -146,8 +136,7 @@ nav a button {
   opacity: 100%; /* Ensures full visibility */
   /* Makes sure the image is on top */
   position: absolute; /* Makes the image move independently from .firstp */
-  margin-left: 100px;
->>>>>>> 2d9b7b2435d3f2747539f06e769c89de02b91439
+  margin-left: 170px;
 }
 
 .jdiploma {
@@ -188,20 +177,3 @@ nav a button {
   position: absolute; /* Makes the image move independently from .firstp */
   margin-left: 800px;
 }
-<<<<<<< HEAD
-.secondbox{
-  width: 355px;
-  height: 370px;
-  background-color: #e8eff3;
-  line-height: 200px;
-  display: flex;
-  align-items: center; /* Vertically centers the content */
-  justify-content: space-between; /* Distributes space between content */
-  padding: 20px;
-  margin-left: 970px;
-  opacity: 100%;
-  box-shadow: 12px 12px rgb(203, 202, 202);
-
-}
-=======
->>>>>>> 2d9b7b2435d3f2747539f06e769c89de02b91439
