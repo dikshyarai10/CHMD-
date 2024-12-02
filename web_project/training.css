@@ -53,67 +53,67 @@ nav a button {
   margin-left: 10px;
 }
 
-.tariningpic{
+.tariningpic {
   width: 1535px;
   height: 618px;
 }
-.ourcommunity h3{
- font-family: Passion one;
- font-weight: bold;
- color: white;
- margin-top: -450px;
- font-size: 50px;
- margin-left: 150px;
+.ourcommunity h3 {
+  font-family: Passion one;
+  font-weight: bold;
+  color: white;
+  margin-top: -450px;
+  font-size: 50px;
+  margin-left: 150px;
 }
-.ourcommunity p{
+.ourcommunity p {
   font-family: Sansation;
- font-weight:lighter;
- color: white;
- margin-left: 150px;
- font-size: 25px;
- margin-top: 30px;
+  font-weight: lighter;
+  color: white;
+  margin-left: 150px;
+  font-size: 25px;
+  margin-top: 30px;
 }
-.ourcommunity h5{
+.ourcommunity h5 {
   font-family: Sansation;
- font-weight:lighter;
- color: white;
- margin-left: 150px;
- font-size: 25px;
- margin-top: 30px;
- text-align: center;
- letter-spacing: 20%;
- font-weight: 100px;
- line-height: 38px ;
- text-align: left;
- letter-spacing: 6%;
- align-items: center;
+  font-weight: lighter;
+  color: white;
+  margin-left: 150px;
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 20%;
+  font-weight: 100px;
+  line-height: 38px;
+  text-align: left;
+  letter-spacing: 6%;
+  align-items: center;
 }
-.text h3{
+.text h3 {
   margin-left: 450px;
   margin-top: 200px;
   font-family: Palatino Linotype;
   font-size: 40px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
-.text p{
-   text-align: center;
-   font-size: 20px;
-   line-height: 35.9px;
-   letter-spacing: 6%;
-   align-items: center;
+.text p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 35.9px;
+  letter-spacing: 6%;
+  align-items: center;
 }
- .firstp{
+.firstp {
   width: 479px;
   height: 450px;
   transform: translateX(200px);
-} */
-.secondp{
+}
+*/ .secondp {
   width: 479px;
   height: 450px;
   transform: translateX(450px);
 }
 
-.box{
+.box {
   width: 355px;
   height: 370px;
   background-color: #e8eff3;
@@ -128,6 +128,7 @@ nav a button {
 
 }
 .firstmini {
+<<<<<<< HEAD
   width: 393px;        /* Width of the image */
   height: 250px;       /* Height of the image */
   transform: translateY(-409px); /* Moves the image upward within the .firstp box */
@@ -136,9 +137,20 @@ nav a button {
   position: absolute;  /* Makes the image move independently from .firstp */
   margin-left: 170px;
   
+=======
+  width: 393px; /* Width of the image */
+  height: 250px; /* Height of the image */
+  transform: translateY(
+    -409px
+  ); /* Moves the image upward within the .firstp box */
+  opacity: 100%; /* Ensures full visibility */
+  /* Makes sure the image is on top */
+  position: absolute; /* Makes the image move independently from .firstp */
+  margin-left: 100px;
+>>>>>>> 2d9b7b2435d3f2747539f06e769c89de02b91439
 }
 
-.jdiploma{
+.jdiploma {
   width: 239px;
   height: 103px;
   opacity: 100%;
@@ -148,7 +160,7 @@ nav a button {
   margin-left: 190px;
   font-weight: lighter;
 }
-.paradiploma{
+.paradiploma {
   font-family: Raleway;
   transform: translateY(-275px);
   margin-left: 190px;
@@ -156,7 +168,7 @@ nav a button {
   opacity: 100%;
   word-spacing: 2px;
 }
-.diplomadetails{
+.diplomadetails {
   font-family: Raleway;
   transform: translateY(-275px);
   margin-left: 190px;
@@ -164,17 +176,19 @@ nav a button {
   opacity: 100%;
   font-weight: lighter;
   word-spacing: 2px;
-
 }
-.secondmini{
-  width: 479px;        /* Width of the image */
-  height: 233px;       /* Height of the image */
-  transform: translateY(11px); /* Moves the image upward within the .firstp box */
-  opacity: 100%;       /* Ensures full visibility */
-      /* Makes sure the image is on top */
-  position: absolute;  /* Makes the image move independently from .firstp */
+.secondmini {
+  width: 479px; /* Width of the image */
+  height: 233px; /* Height of the image */
+  transform: translateY(
+    11px
+  ); /* Moves the image upward within the .firstp box */
+  opacity: 100%; /* Ensures full visibility */
+  /* Makes sure the image is on top */
+  position: absolute; /* Makes the image move independently from .firstp */
   margin-left: 800px;
 }
+<<<<<<< HEAD
 .secondbox{
   width: 355px;
   height: 370px;
@@ -189,3 +203,5 @@ nav a button {
   box-shadow: 12px 12px rgb(203, 202, 202);
 
 }
+=======
+>>>>>>> 2d9b7b2435d3f2747539f06e769c89de02b91439

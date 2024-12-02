@@ -189,7 +189,7 @@ nav a button {
   border-radius: 10px;
 }
 
-.smallbox{
+.smallbox {
   width: 15px;
   height: 100px;
   background-color: rgb(24, 151, 201);
@@ -197,7 +197,6 @@ nav a button {
   position: absolute; /* Allows precise placement */
   right: 55%; /* Aligns the element to the right edge */
   transform: translateY(110%); /* Centers the element vertically */
-  
 }
 
 .text-content h2 {
@@ -206,7 +205,7 @@ nav a button {
   color: black;
   margin-bottom: -120px;
   text-align: Right;
-  padding-right:250px;
+  padding-right: 250px;
   margin-right: 0;
 }
 
@@ -243,30 +242,30 @@ nav a button {
   padding-bottom: 100px; /* Ensure this remains consistent with your design */
   z-index: 1;
 }
-.Contacthome{
+.Contacthome {
   width: 1220px; /* Use percentage for responsiveness */
   height: 440px;
   display: block; /* `inline-block` is unnecessary for this layout */
-  border: 2px solid #05A4E5;
+  border: 2px solid #05a4e5;
   padding: 5px 100px 5px 200px; /* Shortened padding syntax */
   margin: 40px auto 20px; /* Center the box and add vertical spacing */
-  background-color: #05A4E5; /* Hex value corrected (missing #) */
+  background-color: #05a4e5; /* Hex value corrected (missing #) */
   position: relative;
 }
-.Contacthome img{
+.Contacthome img {
   position: absolute; /* Or use 'fixed' if it should stay at the same position on the screen */
   left: 23px; /* X-coordinate */
   height: 90px;
   width: 120px;
   padding-right: 160px;
 }
-.Contacthome h4{
+.Contacthome h4 {
   margin-bottom: 50px;
   position: absolute;
   font-weight: 20px;
   left: 25px;
   top: 80px;
-  color:white;
+  color: white;
   font-family: Sansation;
   font-weight: bold;
   font-weight: 16px;
@@ -279,7 +278,7 @@ nav a button {
   left: 350px;
   top: -10px;
 }
-.Contacthome a{
+.Contacthome a {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center horizontally */
@@ -292,21 +291,21 @@ nav a button {
   font-size: 19px;
   transform: translateY(20px);
 }
-.location-home{
+.location-home {
   font-family: Tilt Warp; /* Ensure the font is properly loaded */
   color: white;
   position: absolute;
   left: 755px; /* Moves the element to the right */
   top: -10px; /* Adjust vertical positioning as needed */
 }
-.map{
-  width: 356px;  /* X-axis (width) */
+.map {
+  width: 356px; /* X-axis (width) */
   height: 50px;
-  padding-left:480px;
+  padding-left: 480px;
   transform: scale(2.5);
   padding-top: 68px;
 }
-.contact-info{
+.contact-info {
   font-family: Tilt Warp;
   color: white;
   position: absolute;
@@ -314,80 +313,78 @@ nav a button {
   top: -10px;
   display: inline-block;
 }
-.locationmap{
-  transform: scale(0.5);  /* Reduces the size by 50% */
+.locationmap {
+  transform: scale(0.5); /* Reduces the size by 50% */
   margin-bottom: 9px;
   border-radius: 10px;
   margin-left: 1000px;
   margin-top: 25px;
 }
-.loctext{
+.loctext {
   margin-left: 960px;
   margin-top: -219px;
   font-family: Sansation;
-  color: #FFFCFC;  
+  color: #fffcfc;
   align-items: center;
   font-weight: normal;
   width: 304px;
   height: 38px;
   font-size: 18px;
 }
-.phone{
-  width: 31px;  /* X-axis (width) */
+.phone {
+  width: 31px; /* X-axis (width) */
   height: 30px;
-  padding-left:1420px;
+  padding-left: 1420px;
   transform: scale(0.4);
   padding-top: 140px;
-  
 }
-.phonenum{
+.phonenum {
   width: 477px;
-  height:174px;
-  color:white;
+  height: 174px;
+  color: white;
   font-family: Sansation;
   font-size: 18px;
   margin-left: 960px;
   margin-top: -10px;
   font-weight: normal;
 }
-.mobile{
-  width:43px;
+.mobile {
+  width: 43px;
   height: 30px;
-  padding-left:1340px;
+  padding-left: 1340px;
   transform: scale(0.5);
   padding-top: 250px;
 }
-.mob{
+.mob {
   width: 477px;
-  height:174px;
-  color:white;
+  height: 174px;
+  color: white;
   font-family: Sansation;
   font-size: 18px;
   margin-left: 970px;
   margin-top: -125px;
   font-weight: normal;
 }
-.email{
-  width:43px;
+.email {
+  width: 43px;
   height: 30px;
-  padding-left:1340px;
+  padding-left: 1340px;
   transform: scale(0.5);
   padding-top: 380px;
 }
-.emaill{
+.emaill {
   width: 477px;
-  height:174px;
-  color:white;
+  height: 174px;
+  color: white;
   font-family: Sansation;
   font-size: 18px;
   margin-left: 970px;
   margin-top: -110px;
   font-weight: normal;
 }
-.Copyright{
+.Copyright {
   font-family: sansation;
   font-size: 20px;
   margin-top: -155px;
   color: white;
-  
 }
