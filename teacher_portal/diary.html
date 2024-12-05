@@ -103,5 +103,25 @@
         <h5>Sat</h5>
       </div>
     </div>
+
+    <!-- Content Box -->
+    <div class="content-box" style="display: none">
+      <h3>Diary Details</h3>
+      <div class="view-mode">
+        <p id="routine-text">Select a day to view details</p>
+        <button id="edit-btn">Edit</button>
+      </div>
+      <div class="edit-mode" style="display: none">
+        <textarea
+          id="routine-textarea"
+          placeholder="Write your diary details here"
+        ></textarea>
+        <input type="date" id="routine-date" style="margin-top: 10px" />
+        <div class="edit-buttons">
+          <button id="save-btn">Save</button>
+          <button id="cancel-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

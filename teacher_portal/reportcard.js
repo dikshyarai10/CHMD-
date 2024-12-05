@@ -28,3 +28,31 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+//for select terminal
+document.addEventListener("DOMContentLoaded", function () {
+  const terminalButton = document.querySelector(".terminal");
+  const dropdown = document.querySelector(".dropdown-content");
+  const terminalOptions = document.querySelectorAll(".terminal-option");
+
+  // Toggle dropdown menu visibility when the button is clicked
+  terminalButton.addEventListener("click", function () {
+    dropdown.style.display =
+      dropdown.style.display === "block" ? "none" : "block";
+  });
+
+  // When a terminal option is clicked, display it as the selected terminal
+  terminalOptions.forEach((option) => {
+    option.addEventListener("click", function () {
+      const selectedTerminal = this.dataset.terminal; // Get terminal name
+      terminalButton.textContent = selectedTerminal; // Update button text
+      dropdown.style.display = "none"; // Close the dropdown
+    });
+  });
+
+  // Close the dropdown if clicked outside of it
+  window.addEventListener("click", function (e) {
+    if (!terminalButton.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.style.display = "none";
+    }
+  });
+});

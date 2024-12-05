@@ -28,94 +28,78 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-//pop
+
+//arko arko
 document.addEventListener("DOMContentLoaded", function () {
-  const menudataIcon = document.querySelector(".menudata_icon");
-  const dash1 = document.querySelector(".dash1");
-  const dash2 = document.querySelector(".dash2");
+  const boxes = document.querySelectorAll(
+    ".boxes1 .box1, .boxes1 .box2, .boxes1 .box3, .boxes1 .box4, .boxes2 .box5, .boxes2 .box6, .boxes2 .box7"
+  );
+  const contentBox = document.querySelector(".content-box");
+  const routineText = document.getElementById("routine-text");
+  const routineTextarea = document.getElementById("routine-textarea");
+  const routineDateInput = document.getElementById("routine-date"); // Date input
+  const editBtn = document.getElementById("edit-btn");
+  const saveBtn = document.getElementById("save-btn");
+  const cancelBtn = document.getElementById("cancel-btn");
 
-  // Initially hide the dash1 and dash2 divs
-  dash1.style.display = "none";
-  dash2.style.display = "none";
+  // Initialize diary details for each day
+  const diaryDetails = {
+    Sun: { text: "No details for Sunday yet.", date: "" },
+    Mon: { text: "No details for Monday yet.", date: "" },
+    Tue: { text: "No details for Tuesday yet.", date: "" },
+    Wed: { text: "No details for Wednesday yet.", date: "" },
+    Thu: { text: "No details for Thursday yet.", date: "" },
+    Fri: { text: "No details for Friday yet.", date: "" },
+    Sat: { text: "No details for Saturday yet.", date: "" },
+  };
 
-  // Hover effect for menudata_icon: Change appearance when hovered
-  menudataIcon.addEventListener("mouseenter", function () {
-    menudataIcon.style.transform = "scale(1.2)"; // Slightly enlarge the icon on hover
-    menudataIcon.style.cursor = "pointer"; // Show pointer cursor
-  });
+  let activeDay = "";
 
-  menudataIcon.addEventListener("mouseleave", function () {
-    menudataIcon.style.transform = "scale(1)"; // Reset the scale when hover ends
-  });
+  // Initially hide content box
+  contentBox.style.display = "none";
 
-  // Add click event listener to menudata_icon to toggle dash1 and dash2 visibility
-  menudataIcon.addEventListener("click", function () {
-    if (dash1.style.display === "none") {
-      dash1.style.display = "block";
-      dash2.style.display = "block";
-    } else {
-      dash1.style.display = "none";
-      dash2.style.display = "none";
-    }
-  });
-});
-document.addEventListener("DOMContentLoaded", () => {
-  // Select all day boxes
-  const dayBoxes = document.querySelectorAll(".boxes1 div, .boxes2 div");
+  // When a box is clicked
+  boxes.forEach((box) => {
+    box.addEventListener("click", function () {
+      activeDay = this.querySelector("h5").textContent;
 
-  // Create a popup box for writing posts
-  const popupBox = document.createElement("div");
-  popupBox.classList.add("popup-box");
-  popupBox.innerHTML = `
-    <h3 id="popup-day">Day</h3>
-    <label for="popup-date">Date:</label>
-    <input type="date" id="popup-date" required style="margin-bottom: 10px; display: block;">
+      // Display text and date together in the view mode
+      const { text, date } = diaryDetails[activeDay];
+      routineText.innerHTML = text
+        ? `<strong>Date:</strong> ${date || "Not set"} <br>Content: ${text} `
+        : "No details yet.";
 
-    <div style="display: flex; gap: 10px;">
-      <textarea id="subjects" placeholder="Subjects" style="width: 48%; height: 100px; resize: none;"></textarea>
-      <textarea id="homework" placeholder="Homework/Content" style="width: 48%; height: 100px; resize: none;"></textarea>
-    </div>
-
-    <div class="popup-buttons">
-      <button id="submit-btn">Submit</button>
-      <button id="cancel-btn">Cancel</button>
-    </div>
-  `;
-  document.body.appendChild(popupBox);
-
-  let currentDay = ""; // Track which day's box is open
-
-  // Open popup on box click
-  dayBoxes.forEach((box) => {
-    box.addEventListener("click", () => {
-      currentDay = box.querySelector("h5").innerText; // Get the day
-      document.getElementById("popup-day").innerText = `Post for ${currentDay}`;
-      document.getElementById("popup-date").value = ""; // Reset date input
-      document.getElementById("subjects").value = ""; // Reset subjects textarea
-      document.getElementById("homework").value = ""; // Reset homework textarea
-      popupBox.style.display = "block";
+      contentBox.style.display = "block";
     });
   });
 
-  // Submit button functionality
-  document.getElementById("submit-btn").addEventListener("click", () => {
-    const date = document.getElementById("popup-date").value;
-    const subjects = document.getElementById("subjects").value.trim();
-    const homework = document.getElementById("homework").value.trim();
-
-    if (!date || !subjects || !homework) {
-      alert("Please fill in all fields before submitting!");
-      return;
-    }
-
-    alert(
-      `Post saved for ${currentDay} on ${date}:\nSubjects: ${subjects}\nHomework: ${homework}`
-    );
-    popupBox.style.display = "none";
+  // When Edit button is clicked
+  editBtn.addEventListener("click", function () {
+    const { text, date } = diaryDetails[activeDay];
+    routineTextarea.value = text;
+    routineDateInput.value = date || ""; // Load saved date (if any)
+    contentBox.querySelector(".view-mode").style.display = "none";
+    contentBox.querySelector(".edit-mode").style.display = "block";
   });
 
-  // Cancel button functionality
-  document.getElementById("cancel-btn").addEventListener("click", () => {
-    popupBox.style.display = "none";
+  // When Save button is clicked
+  saveBtn.addEventListener("click", function () {
+    diaryDetails[activeDay].text = routineTextarea.value;
+    diaryDetails[activeDay].date = routineDateInput.value; // Save the date
+
+    // Update the view mode with text and date
+    const { text, date } = diaryDetails[activeDay];
+    routineText.innerHTML = `<strong>Date:</strong> ${
+      date || "Not set"
+    } <br> Content: ${text} `;
+
+    contentBox.querySelector(".view-mode").style.display = "block";
+    contentBox.querySelector(".edit-mode").style.display = "none";
+  });
+
+  // When Cancel button is clicked
+  cancelBtn.addEventListener("click", function () {
+    contentBox.querySelector(".view-mode").style.display = "block";
+    contentBox.querySelector(".edit-mode").style.display = "none";
   });
 });
