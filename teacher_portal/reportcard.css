@@ -305,16 +305,10 @@ h5 {
   left: 21.7%;
   top: 45.4%;
 }
-.option_icon {
-  position: absolute;
-  left: 80%;
-  top: 5%;
-  width: 18px;
-  height: 18px;
-}
+
 .edit_icon {
   position: absolute;
-  left: 88%;
+  left: 71%;
   top: 4.6%;
   width: 20px;
   height: 20px;

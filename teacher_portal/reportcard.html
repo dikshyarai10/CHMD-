@@ -116,103 +116,11 @@
       <p class="p5">Reportcard</p>
     </div>
     <div class="studentls">
-      <img src="/CHMD-/teacher_portal/timages/stdoption1.png" alt="option_icon" class="option_icon">
       <img src="/CHMD-/teacher_portal/timages/stdedit1.png" alt="edit_icon" class="edit_icon">
+      <p clas="reportstatus1">Edit/Upload</p>
     </div>
 
-    <!--Rough-->
-    <!---
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Report Cards</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        label {
-            font-weight: bold;
-        }
-        input[type="text"], input[type="file"] {
-            padding: 8px;
-            font-size: 1rem;
-        }
-        .uploaded-images {
-            margin-top: 20px;
-        }
-        .image-item {
-            margin-bottom: 15px;
-        }
-        .image-item img {
-            max-width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Upload Report Cards</h1>
-        <form id="uploadForm">
-            <label for="studentName">Student Name:</label>
-            <input type="text" id="studentName" name="studentName" placeholder="Enter student name" required>
-            
-            <label for="reportCard">Upload Report Card:</label>
-            <input type="file" id="reportCard" name="reportCard" accept="image/*" required>
-            
-            <button type="submit">Upload</button>
-        </form>
-        
-        <div class="uploaded-images" id="uploadedImages">
-            <h2>Uploaded Report Cards</h2>
-        </div>
-    </div>
 
-    <script>
-        document.getElementById('uploadForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent form submission
-            
-            const studentName = document.getElementById('studentName').value;
-            const fileInput = document.getElementById('reportCard');
-            const file = fileInput.files[0];
-
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const uploadedImagesDiv = document.getElementById('uploadedImages');
-                    
-                    const imageContainer = document.createElement('div');
-                    imageContainer.classList.add('image-item');
-                    
-                    const imageTitle = document.createElement('p');
-                    imageTitle.textContent = `Student: ${studentName}`;
-                    imageContainer.appendChild(imageTitle);
-                    
-                    const image = document.createElement('img');
-                    image.src = e.target.result;
-                    image.alt = `Report card of ${studentName}`;
-                    imageContainer.appendChild(image);
-                    
-                    uploadedImagesDiv.appendChild(imageContainer);
-                };
-                reader.readAsDataURL(file);
-            }
-        });
-    </script>
-  -->
 </body>
 </html>
   </body>
