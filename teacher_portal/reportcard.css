@@ -313,3 +313,39 @@ h5 {
   width: 20px;
   height: 20px;
 }
+.studentls p {
+  color: #037dae;
+  display: inline-block;
+  position: relative;
+  left: 81%;
+  margin-top: 0;
+  bottom: -5%;
+}
+/* Style for the dropdown content */
+
+.terminal-box {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 20px;
+  position: re;
+  bottom: 495px;
+  position: absolute;
+  left: 28%;
+}
+
+.terminal-box select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.terminal-box select:hover {
+  border-color: #037dae;
+}
