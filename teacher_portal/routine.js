@@ -28,3 +28,30 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+//button to upload/edit
+let uploadedImages = {};
+
+// Function to handle the image upload
+function previewImage(inputId, previewId) {
+  const fileInput = document.getElementById(inputId);
+  const file = fileInput.files[0];
+
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      uploadedImages[previewId] = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  }
+}
+
+// Function to view the uploaded image in a larger view
+function viewImage(previewId) {
+  const imagePreview = document.getElementById(previewId);
+
+  if (uploadedImages[previewId]) {
+    imagePreview.innerHTML = `<img src="${uploadedImages[previewId]}" alt="Uploaded Photo" style="max-width: 100%; max-height: 500px; border: 1px solid #ccc; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">`;
+  } else {
+    alert("No image uploaded yet.");
+  }
+}
