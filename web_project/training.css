@@ -501,11 +501,11 @@ input[type="radio"]:checked {
   margin-top: -155px;
   margin-left: 480px;
 }
-.paragraph p{
+.testinonial p{
   font-size: 12px;
   font-family: Barlow;
   margin-top: 150px; /* Adjust margin-top for better spacing */
-  margin-right: 50px;
+  margin-right: 550px;
   opacity: 100%;
   text-align: left;
   white-space: nowrap; /* Prevents text from wrapping */
