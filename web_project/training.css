@@ -501,14 +501,13 @@ input[type="radio"]:checked {
   margin-top: -155px;
   margin-left: 480px;
 }
-.testinonial p{
+ .paragraph p{
   font-size: 12px;
   font-family: Barlow;
-  margin-top: 150px; /* Adjust margin-top for better spacing */
-  margin-right: 550px;
-  opacity: 100%;
-  text-align: left;
-  white-space: nowrap; /* Prevents text from wrapping */
+  text-align: left; /* Align paragraph to the left */
+  margin: 0 auto; /* Center it within the container, if needed */
+  width: 80%; /* Adjust width as per design */
+  margin-bottom: 100px;
 }
 
 .Contacthome {
