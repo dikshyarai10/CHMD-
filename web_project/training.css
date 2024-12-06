@@ -451,65 +451,79 @@ input[type="radio"]:checked {
   color: white;
   font-size: 20px;
 }
-.testinonial{
-  height: 700px;
-  background-color: lightskyblue; 
-  width: 1491px;
-  line-height: 200px;
+.testinonial {
   display: flex;
-  align-items: center; /* Vertically centers the content */
-  justify-content: space-between; /* Distributes space between content */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin: 50px auto; /* Center horizontally and add top spacing */
   padding: 20px;
-  margin-top: 255px;
-  opacity: 100%;
-}
-.testinonial h3{
-  margin-bottom: 650px;
-  margin-left: 630px;
-  font-family: Palatino Linotype;
-  font-size: 45px;
-  line-height: 121.2px;
-  letter-spacing: 3%;
+  width: 100%; /* Set the div to use half of its current width */
+  background-color: lightskyblue; /* Optional background for visibility */
+  box-sizing: border-box; /* Include padding in width */
 }
 .line{
-  width: 106px;
+  width: 80px;
   height: 5px;
   background-color:black;
   margin: 10px 0;
   position: absolute; /* Allows precise placement */
   left: 8%; /* Aligns the element to the right edge */
-  margin-bottom: 610px;
-  margin-left: 410px;
+  margin-bottom: 675px;
+  margin-left: 470px;
 }
 .line2{
-  width: 106px;
+  width: 80px;
   height: 5px;
   background-color:black;
   margin: 10px 0;
   position: absolute; /* Allows precise placement */
   left: 8%; /* Aligns the element to the right edge */
-  margin-top: -590px;
-  margin-left: 800px;
+  margin-top: -565px;
+  margin-left: 730px;
 }
-.photo{
-  width: 373px;
-  height: 271px;
-  background-color:white;
-  margin: 10px 0;
-  position: absolute; /* Allows precise placement */
-  left: 8%; /* Aligns the element to the right edge */
-  margin-top: -155px;
-  margin-left: 480px;
-}
- .paragraph p{
-  font-size: 12px;
-  font-family: Barlow;
-  text-align: left; /* Align paragraph to the left */
-  margin: 0 auto; /* Center it within the container, if needed */
-  width: 80%; /* Adjust width as per design */
-  margin-bottom: 100px;
+.line{
+  margin-top: 100px;
 }
 
+.testinonial h3 {
+  font-family: "Palatino Linotype", serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0; /* Space around the heading */
+  color: #333; /* Text color */
+}
+
+.testinonial .paragraph {
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5; /* Improve readability */
+  margin: 10px 20px;
+  /* margin-top: -60%;  */
+  color: #555; /* Text color */
+}
+
+.testinonial .testname {
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5; /* Improve readability */
+  margin: 10px 20px;
+  color: #555; /* Text color */
+}
+
+.testinonial .photo {
+  width: 350px; /* Set width for the photo */
+  height: 400px; /* Set height for the photo */
+  background-color: #fff; /* Placeholder color */
+  margin: 15px 0; /* Space around the photo */
+}
+
+ 
 .Contacthome {
   width: 1220px; /* Use percentage for responsiveness */
   height: 440px;
@@ -656,3 +670,4 @@ input[type="radio"]:checked {
   margin-top: -155px;
   color: white;
 }
+
