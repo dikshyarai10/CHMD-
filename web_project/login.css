@@ -8,10 +8,12 @@ nav {
   background-color: #05a4e5;
   text-align: left;
   padding-bottom: 4px;
+  height: 90px;
 }
 
 nav a {
   padding-top: 1em;
+
   color: rgb(14, 13, 13);
   text-decoration: none;
   margin-right: 30px;
@@ -26,7 +28,7 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-nav a button {
+.loginbutton {
   background-color: #009d4f;
   color: white;
   border: none;
@@ -50,15 +52,15 @@ nav a button {
   margin-top: -50px;
   margin-left: 10px;
 }
-.background{
-  background: url('/web_project/images/Login1.png') no-repeat center center/cover;
+.background {
+  background: url("/CHMD-/web_project/images/Login1.png") no-repeat center
+    center/cover;
   height: 90vh; /* Full-screen height */
   display: flex;
   margin-top: 30px;
   justify-content: center;
   align-items: center;
   position: relative;
-  
 }
 .bluebox {
   background-color: rgba(52, 196, 255, 0.82); /* Semi-transparent blue */
@@ -71,54 +73,61 @@ nav a button {
 .bluebox img {
   display: inline-block;
   position: absolute;
-  left: 55%;
-  top: 13%;
+  left: 52%;
+  top: 8%;
   width: 530px;
   height: 450px;
   opacity: 1; /* Ensures full opacity */
 }
-.background h1{
+.background h1 {
   display: inline-block;
   font-size: 60px;
   position: relative;
   left: 10%;
   margin-bottom: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-.background p, .input-group, button{
+.background p,
+.input-group,
+button {
   position: relative;
   left: 11%;
 
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   margin-bottom: 30px;
-  
 }
-.background p{
+.background p {
   color: white;
   position: absolute;
-  bottom: 74%;
+  bottom: 68%;
   font-size: 20px;
 }
-#email, #password{
+#email,
+#password {
   position: relative;
   margin-top: 20px;
-  background-color: rgba(52, 196, 255, 0.2); /* Adjust transparency of the background */
+  background-color: rgba(
+    52,
+    196,
+    255,
+    0.2
+  ); /* Adjust transparency of the background */
   border: none; /* Remove all borders initially */
   border-bottom: 2px solid black; /* Add a visible black bottom border */
   width: 400px;
   padding: 10px; /* Optional: Add some padding for better appearance */
   font-size: 16px; /* Optional: Adjust font size for usability */
 }
-.input-group{
+.input-group {
   font-size: 20px;
 }
-.forgot-password{
+.forgot-password {
   position: relative;
   left: 11%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: black;
 }
-.bluebox button{
+.bluebox button {
   width: 150px;
   position: relative;
   left: 30%;
