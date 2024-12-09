@@ -158,7 +158,7 @@ h5 {
 }
 .box1 {
   position: absolute;
-  top: 210px; /* Adjust as needed */
+  top: 280px; /* Adjust as needed */
   left: 23%;
   background-color: white;
   display: inline-block;
@@ -170,7 +170,7 @@ h5 {
 }
 .box2 {
   position: absolute;
-  top: 210px; /* Adjust as needed */
+  top: 280px; /* Adjust as needed */
   left: 34%;
   background-color: white;
   display: inline-block;
@@ -182,7 +182,7 @@ h5 {
 }
 .box3 {
   position: absolute;
-  top: 210px; /* Adjust as needed */
+  top: 280px; /* Adjust as needed */
   left: 45%;
   background-color: white;
   display: inline-block;
@@ -194,7 +194,7 @@ h5 {
 }
 .box4 {
   position: absolute;
-  top: 210px; /* Adjust as needed */
+  top: 280px; /* Adjust as needed */
   left: 56%;
   background-color: white;
   display: inline-block;
@@ -206,7 +206,7 @@ h5 {
 }
 .box5 {
   position: absolute;
-  top: 210px; /* Adjust as needed */
+  top: 280px; /* Adjust as needed */
   left: 67%;
   background-color: white;
   display: inline-block;
@@ -218,7 +218,7 @@ h5 {
 }
 .box6 {
   position: absolute;
-  top: 210px; /* Adjust as needed */
+  top: 280px; /* Adjust as needed */
   left: 78%;
   background-color: white;
   display: inline-block;
@@ -230,7 +230,7 @@ h5 {
 }
 .box7 {
   position: absolute;
-  top: 210px; /* Adjust as needed */
+  top: 280px; /* Adjust as needed */
   left: 89%;
   background-color: white;
   display: inline-block;
@@ -277,7 +277,7 @@ h5 {
 .content-box {
   display: inline-block;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 25%;
   width: 900px;
   margin: 20px auto;
@@ -346,4 +346,55 @@ button:hover {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+.sort-box2 {
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 480px;
+  left: 30%;
+}
+
+.sort-box2 label {
+  font-size: 16px;
+  color: #037dae;
+  margin-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.sort-box2 select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  width: 300px;
+}
+
+.sort-box2 select:hover {
+  border-color: #037dae;
+}
+#sort-area2 {
+  width: 200px;
+  text-align: center;
+}
+.branchname {
+  position: absolute;
+  top: 115px; /* Adjust as needed */
+  left: 25%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #0ca6e4;
+}
+.diary h3 {
+  position: absolute;
+  top: 160px; /* Adjust as needed */
+  left: 55%;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+  color: #037dae;
 }
