@@ -6,47 +6,171 @@ body {
 
 nav {
   background-color: #05a4e5;
-  text-align: left;
-  padding-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 100px;
 }
 
 nav a {
-  padding-top: 1em;
-  color: rgb(14, 13, 13);
+  color: #0e0d0d;
   text-decoration: none;
-  margin-right: 30px;
+  margin: 0 15px;
   font-family: "Georgia", serif;
   font-size: 18px;
   font-weight: bold;
 }
 
 nav a:hover {
-  border-bottom: 7px solid rgb(0, 0, 0);
-  padding-bottom: 36px;
-  margin-bottom: 0;
+  border-bottom: 3px solid #000;
 }
 
-nav a button {
+.loginbutton {
   background-color: #009d4f;
   color: white;
   border: none;
-  padding: 0.5em 1em;
+  padding: 8px 16px;
   cursor: pointer;
   font-family: "Georgia", serif;
   font-size: 18px;
   font-weight: bold;
-  border: solid 1px;
-  border-color: white;
-}
-
-.navtext {
-  text-align: right;
-  padding-top: 20px;
+  border-radius: 5px;
 }
 
 .nav-logo {
-  width: 15vh;
-  height: 10vh;
-  margin-top: -50px;
+  width: 12vh;
+  height: auto;
   margin-left: 10px;
+}
+
+.background {
+  background: url("/CHMD-/web_project/images/Login1.png") no-repeat center center/cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.bluebox {
+  background-color: rgba(52, 196, 255, 0.82);
+  width: 1000px; /* Increased width */
+  max-width: 95%; /* Ensures responsiveness */
+  padding: 30px; /* More padding for spacing */
+  border-radius: 16px;
+  height: 550px; /* Increased height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+  position: relative;
+  
+}
+
+.bluebox h1 {
+  font-size: 2.5rem; /* Larger font size */
+  margin: 0; /* Removed default margin */
+  margin-bottom: 10px; /* Added a small gap below */
+  text-align: left;
+  position: relative;
+  top: -20px; /* Moves the heading up */
+}
+
+.bluebox p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1rem;
+  margin-bottom: 8px; /* Added space between label and input */
+  display: block; /* Ensures label is on top of input */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px; /* Increased space between input fields */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forgot-password a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.bluebox button {
+  padding: 12px 24px; /* Slightly larger button */
+  font-size: 1.2rem;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  left: 80%;
+  width: 130px;
+  border: black solid 1px;
+  border-radius: 20px;
+}
+
+.bluebox-image {
+  width: 40%;
+  max-width: 300px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: -20px; /* Keeps the image slightly higher */
+  position: relative;
+  
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navtext {
+    margin-top: 10px;
+  }
+
+  .background {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bluebox {
+    width: 90%;
+    height: auto; /* Adjusts height for smaller screens */
+    flex-direction: column; /* Stacks content vertically */
+  }
+  .bluebox h1 {
+    text-align: center; /* Centers heading on smaller screens */
+    top: 0; /* Resets the top offset */
+  }
+
+
+  .bluebox-image {
+    margin: 20px 0;
+    
+  }
+}
+
+#email, #password{
+  background-color: rgba(
+    52,
+    196,
+    255,
+    0.2
+  ); /* Adjust transparency of the background */
+  border: none; /* Remove all borders initially */
+  border-bottom: 2px solid black; /* Add a visible black bottom border */
+  width: 400px;
+  padding: 10px; /* Optional: Add some padding for better appearance */
+  font-size: 16px; /* Optional: Adjust font size for usability */
 }
