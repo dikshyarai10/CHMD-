@@ -1,0 +1,354 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #05a4e5;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  height: 2%;
+}
+h5 {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  position: relative;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.nav-logo {
+  width: 15vh;
+  height: 10vh;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.teacherimg {
+  position: relative;
+  left: 90%;
+  margin-top: 20px;
+}
+
+.teacher {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  position: relative;
+}
+.teacher p {
+  position: relative;
+  left: 100%;
+  margin-top: 16%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.bell {
+  position: relative;
+  left: 110%;
+  margin-top: 14%;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a hover effect for the bell icon */
+}
+
+/* When the bell is hovered, change its color slightly */
+.bell:hover {
+  filter: brightness(1.2);
+}
+.msgicon {
+  position: relative;
+  left: 120%;
+  margin-top: 15%;
+}
+.menubox {
+  background-color: #cce1ea;
+  width: 328px;
+  height: 766px;
+}
+.menuchmd {
+  background-color: #037dae;
+  width: 321px;
+  height: 76px;
+  border: white solid 5px;
+}
+.menudata {
+  position: relative;
+  left: 7%;
+  margin-top: 7%;
+}
+.menudata_name {
+  color: white;
+  position: relative;
+  left: 10%;
+  margin-top: -29px;
+  font-size: 25px;
+  display: inline-block;
+}
+.menudata_icon {
+  position: relative;
+  left: 60%;
+  width: 20px;
+  height: 20px;
+  margin-top: -20%;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+.menudata_icon:hover {
+  transform: scale(1.2); /* Enlarge icon on hover */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+}
+
+.dash1,
+.dash2 {
+  transition: opacity 0.3s ease; /* Smooth fade in/out */
+}
+.dash1 {
+  background-color: #037dae;
+  width: 323px;
+  height: 50px;
+  border: white solid 2px;
+  padding-left: 0;
+  margin-left: 0;
+  position: relative;
+  right: 1%;
+}
+.dash2 {
+  background-color: #037dae;
+  width: 323px;
+  height: 50px;
+  border: white solid 2px;
+  padding-left: 0;
+  margin-left: 0;
+  position: relative;
+  right: 1%;
+}
+.dashicon {
+  position: relative;
+  left: 18%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-top: 17px;
+}
+.dash1 p {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 5%;
+  left: 21%;
+}
+.enquiryicon {
+  display: inline-block;
+  position: relative;
+  left: 18%;
+  width: 15px;
+  height: 15px;
+  margin-top: 15px;
+}
+.dash2 p {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 5%;
+  left: 21%;
+}
+.branchname {
+  position: absolute;
+  top: 115px; /* Adjust as needed */
+  left: 25%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #0ca6e4;
+}
+.box1 {
+  position: absolute;
+  top: 210px; /* Adjust as needed */
+  left: 30%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box2 {
+  position: absolute;
+  top: 210px; /* Adjust as needed */
+  left: 55%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box3 {
+  position: absolute;
+  top: 210px; /* Adjust as needed */
+  left: 80%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box4 {
+  position: absolute;
+  top: 480px; /* Adjust as needed */
+  left: 30%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box5 {
+  position: absolute;
+  top: 480px; /* Adjust as needed */
+  left: 55%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.box6 {
+  position: absolute;
+  top: 480px; /* Adjust as needed */
+  left: 80%;
+  background-color: white;
+  display: inline-block;
+  width: 224px;
+  height: 182px;
+  box-shadow: 8px 8px 5px 2px rgb(203, 202, 202);
+  border-radius: 20px;
+  border: rgb(218, 218, 218) solid 1px;
+}
+.studenticon {
+  display: inline-block;
+  position: absolute;
+  left: 32%;
+  top: 20%;
+}
+.box1 p {
+  color: #037dae;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 27%;
+  top: 50%;
+  font-weight: bold;
+}
+.diaryicon {
+  display: inline-block;
+  position: absolute;
+  left: 38%;
+  top: 20%;
+}
+.box2 p {
+  color: #037dae;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 36%;
+  top: 50%;
+  font-weight: bold;
+}
+.reporticon {
+  display: inline-block;
+  position: absolute;
+  left: 38%;
+  top: 20%;
+}
+.box3 p {
+  color: #037dae;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  font-weight: bold;
+}
+.routineicon {
+  display: inline-block;
+  position: absolute;
+  left: 38%;
+  top: 20%;
+}
+.box4 p {
+  color: #037dae;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 29%;
+  top: 50%;
+  font-weight: bold;
+}
+.discussionicon {
+  display: inline-block;
+  position: absolute;
+  left: 36%;
+  top: 20%;
+}
+.box5 p {
+  color: #037dae;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 22%;
+  top: 50%;
+  font-weight: bold;
+}
+.idcardicon {
+  display: inline-block;
+  position: absolute;
+  left: 36%;
+  top: 20%;
+}
+.box6 p {
+  color: #037dae;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  font-weight: bold;
+}
+/* Hover Effect for Boxes */
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+  transform: scale(1.05); /* Slightly enlarge the box */
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}

@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+nav {
+  background-color: #05a4e5;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  height: 2%;
+}
+h5 {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  position: relative;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.nav-logo {
+  width: 15vh;
+  height: 10vh;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.teacherimg {
+  position: relative;
+  left: 90%;
+  margin-top: 20px;
+}
+
+.teacher {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  position: relative;
+}
+.teacher p {
+  position: relative;
+  left: 100%;
+  margin-top: 16%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.bell {
+  position: relative;
+  left: 110%;
+  margin-top: 14%;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a hover effect for the bell icon */
+}
+
+/* When the bell is hovered, change its color slightly */
+.bell:hover {
+  filter: brightness(1.2);
+}
+.msgicon {
+  position: relative;
+  left: 120%;
+  margin-top: 15%;
+}
+.menubox {
+  background-color: #cce1ea;
+  width: 328px;
+  height: 766px;
+}
+.menuchmd {
+  background-color: #037dae;
+  width: 321px;
+  height: 76px;
+  border: white solid 5px;
+}
+.menudata {
+  position: relative;
+  left: 7%;
+  margin-top: 7%;
+}
+.menudata_name {
+  color: white;
+  position: relative;
+  left: 10%;
+  margin-top: -29px;
+  font-size: 25px;
+  display: inline-block;
+}
+.menudata_icon {
+  position: relative;
+  left: 60%;
+  width: 20px;
+  height: 20px;
+  margin-top: -20%;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+.menudata_icon:hover {
+  transform: scale(1.2); /* Enlarge icon on hover */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+}
+
+.dash1,
+.dash2 {
+  transition: opacity 0.3s ease; /* Smooth fade in/out */
+}
+.dash1 {
+  background-color: #037dae;
+  width: 323px;
+  height: 50px;
+  border: white solid 2px;
+  padding-left: 0;
+  margin-left: 0;
+  position: relative;
+  right: 1%;
+}
+.dash2 {
+  background-color: #037dae;
+  width: 323px;
+  height: 50px;
+  border: white solid 2px;
+  padding-left: 0;
+  margin-left: 0;
+  position: relative;
+  right: 1%;
+}
+.dashicon {
+  position: relative;
+  left: 18%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-top: 17px;
+}
+.dash1 p {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 5%;
+  left: 21%;
+}
+.enquiryicon {
+  display: inline-block;
+  position: relative;
+  left: 18%;
+  width: 15px;
+  height: 15px;
+  margin-top: 15px;
+}
+.dash2 p {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 5%;
+  left: 21%;
+}
+.container {
+  width: 800px; /* Ensure a fixed width */
+  max-width: 90%; /* Allow responsiveness */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+h1 {
+  font-size: 24px;
+  color: #037dae;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+input,
+select,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #037dae;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #025d7f;
+}

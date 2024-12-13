@@ -1,0 +1,351 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+nav {
+  background-color: #05a4e5;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  height: 2%;
+}
+h5 {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  position: relative;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.nav-logo {
+  width: 15vh;
+  height: 10vh;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.teacherimg {
+  position: relative;
+  left: 90%;
+  margin-top: 20px;
+}
+
+.teacher {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+  position: relative;
+}
+.teacher p {
+  position: relative;
+  left: 100%;
+  margin-top: 16%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.bell {
+  position: relative;
+  left: 110%;
+  margin-top: 14%;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add a hover effect for the bell icon */
+}
+
+/* When the bell is hovered, change its color slightly */
+.bell:hover {
+  filter: brightness(1.2);
+}
+.msgicon {
+  position: relative;
+  left: 120%;
+  margin-top: 15%;
+}
+.menubox {
+  background-color: #cce1ea;
+  width: 328px;
+  height: 766px;
+}
+.menuchmd {
+  background-color: #037dae;
+  width: 321px;
+  height: 76px;
+  border: white solid 5px;
+}
+.menudata {
+  position: relative;
+  left: 7%;
+  margin-top: 7%;
+}
+.menudata_name {
+  color: white;
+  position: relative;
+  left: 10%;
+  margin-top: -29px;
+  font-size: 25px;
+  display: inline-block;
+}
+.menudata_icon {
+  position: relative;
+  left: 60%;
+  width: 20px;
+  height: 20px;
+  margin-top: -20%;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+.menudata_icon:hover {
+  transform: scale(1.2); /* Enlarge icon on hover */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+}
+
+.dash1,
+.dash2 {
+  transition: opacity 0.3s ease; /* Smooth fade in/out */
+}
+.dash1 {
+  background-color: #037dae;
+  width: 323px;
+  height: 50px;
+  border: white solid 2px;
+  padding-left: 0;
+  margin-left: 0;
+  position: relative;
+  right: 1%;
+}
+.dash2 {
+  background-color: #037dae;
+  width: 323px;
+  height: 50px;
+  border: white solid 2px;
+  padding-left: 0;
+  margin-left: 0;
+  position: relative;
+  right: 1%;
+}
+.dashicon {
+  position: relative;
+  left: 18%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-top: 17px;
+}
+.dash1 p {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 5%;
+  left: 21%;
+}
+.enquiryicon {
+  display: inline-block;
+  position: relative;
+  left: 18%;
+  width: 15px;
+  height: 15px;
+  margin-top: 15px;
+}
+.dash2 p {
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  bottom: 5%;
+  left: 21%;
+}
+.reportcard {
+  position: absolute;
+  top: 160px; /* Adjust as needed */
+  left: 55%;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+  color: #037dae;
+}
+.branchname {
+  position: absolute;
+  top: 115px; /* Adjust as needed */
+  left: 25%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #0ca6e4;
+}
+.search-box {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 370px;
+  position: absolute;
+  bottom: 450px;
+  left: 25%;
+}
+.search-box input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  flex: 1;
+}
+.search-box button {
+  border: none;
+  background: #05a4e5;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.search-box button:hover {
+  background: #037dae;
+}
+.sort-box {
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 450px;
+  left: 50%;
+}
+
+.sort-box label {
+  font-size: 16px;
+  color: #037dae;
+  margin-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.sort-box select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.sort-box select:hover {
+  border-color: #037dae;
+}
+#sort-area {
+  width: 100px;
+  text-align: center;
+}
+.sort-box2 {
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 450px;
+  left: 50%;
+}
+
+.sort-box2 label {
+  font-size: 16px;
+  color: #037dae;
+  margin-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.sort-box2 select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.sort-box2 select:hover {
+  border-color: #037dae;
+}
+#sort-area2 {
+  width: 200px;
+  text-align: center;
+}
+.category {
+  display: inline-block;
+  background-color: #037dae;
+  width: 1191px;
+  height: 35px;
+  position: absolute;
+  bottom: 55%;
+  left: 21.6%;
+}
+.category p {
+  display: inline-block;
+  flex-direction: column;
+  position: relative;
+  bottom: 20%;
+  color: white;
+  left: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+.p2 {
+  margin-left: 250px;
+}
+.p3 {
+  margin-left: 300px;
+}
+.p4 {
+  margin-left: 90px;
+}
+.p5 {
+  margin-left: 90px;
+}
+.studentls {
+  background-color: #cce1ea;
+  width: 1189px;
+  height: 544px; /* Increase the height */
+  position: absolute;
+  left: 21.7%;
+  top: 45.4%;
+}
+
+.edit_icon {
+  position: absolute;
+  left: 71%;
+  top: 4.6%;
+  width: 20px;
+  height: 20px;
+}
+.studentls p {
+  color: #037dae;
+  display: inline-block;
+  position: relative;
+  left: 81%;
+  margin-top: 0;
+  bottom: -5%;
+}
+/* Style for the dropdown content */
+
+.terminal-box {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 20px;
+  position: re;
+  bottom: 495px;
+  position: absolute;
+  left: 28%;
+}
+
+.terminal-box select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.terminal-box select:hover {
+  border-color: #037dae;
+}

@@ -1,0 +1,339 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #05a4e5;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+nav a {
+  padding-top: 1em;
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 7px solid rgb(0, 0, 0);
+  padding-bottom: 36px;
+  margin-bottom: 0;
+}
+
+nav a button {
+  background-color: #009d4f;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 1px;
+  border-color: white;
+}
+
+.navtext {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.nav-logo {
+  width: 15vh;
+  height: 10vh;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+.background {
+  background: url("/CHMD-/web_project/images/Login1.png") no-repeat center center/cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.bluebox {
+  background-color: rgba(52, 196, 255, 0.82);
+  width: 1000px; /* Increased width */
+  max-width: 95%; /* Ensures responsiveness */
+  padding: 30px; /* More padding for spacing */
+  border-radius: 16px;
+  height: 510px; /* Increased height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+  position: relative;
+  
+}
+
+.bluebox h1 {
+  font-size: 2.5rem; /* Larger font size */
+  margin: 0; /* Removed default margin */
+  margin-bottom: -30px; /* Added a small gap below */
+  text-align: left;
+  position: relative;
+  top: -20px; /* Moves the heading up */
+  margin-top: 20px;
+}
+
+.bluebox p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.input-group label {
+  font-size: 1rem;
+  margin-bottom: 8px; /* Added space between label and input */
+  display: block; /* Ensures label is on top of input */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px; /* Increased space between input fields */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forgot-password a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.bluebox button {
+  padding: 12px 24px; /* Slightly larger button */
+  font-size: 1.2rem;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  left: 80%;
+  width: 130px;
+  border: black solid 1px;
+  border-radius: 20px;
+}
+
+.bluebox-image {
+  width: 532px;
+  height: 370px;
+  margin-left: 440px;
+  margin-top: -480px; /* Keeps the image slightly higher */
+  position: relative;
+  padding: 100px;
+  
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navtext {
+    margin-top: 10px;
+  }
+
+  .background {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bluebox {
+    width: 90%;
+    height: auto; /* Adjusts height for smaller screens */
+    flex-direction: column; /* Stacks content vertically */
+  }
+  .bluebox h1 {
+    text-align: center; /* Centers heading on smaller screens */
+    top: 0; /* Resets the top offset */
+  }
+
+
+  .bluebox-image {
+    margin: 20px 0;
+    
+  }
+}
+
+#email, #password{
+  background-color: rgba(
+    52,
+    196,
+    255,
+    0.2
+  ); /* Adjust transparency of the background */
+  border: none; /* Remove all borders initially */
+  border-bottom: 2px solid black; /* Add a visible black bottom border */
+  width: 400px;
+  padding: 10px; /* Optional: Add some padding for better appearance */
+  font-size: 16px; /* Optional: Adjust font size for usability */
+}
+form{
+  margin-top: 40px;
+}
+
+ 
+.Contacthome {
+  width: 1220px; /* Use percentage for responsiveness */
+  height: 440px;
+  display: block; /* `inline-block` is unnecessary for this layout */
+  border: 2px solid #05a4e5;
+  padding: 5px 100px 5px 200px; /* Shortened padding syntax */
+  margin: 80px auto 50px; /* Center the box and add vertical spacing */
+  background-color: #05a4e5; /* Hex value corrected (missing #) */
+  position: relative;
+  margin-top: 40px;
+}
+.Contacthome img {
+  position: absolute; /* Or use 'fixed' if it should stay at the same position on the screen */
+  left: 23px; /* X-coordinate */
+  height: 90px;
+  width: 120px;
+  padding-right: 160px;
+}
+.Contacthome h4 {
+  margin-bottom: 50px;
+  position: absolute;
+  font-weight: 20px;
+  left: 25px;
+  top: 80px;
+  color: white;
+  font-family: Sansation;
+  font-weight: bold;
+  font-weight: 16px;
+  margin-bottom: 20px;
+}
+.quick {
+  font-family: Tilt Warp;
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: -10px;
+}
+.Contacthome a {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Center vertically */
+  height: 40px; /* Full screen height for centering */
+  padding-right: 790px;
+  padding-top: 10px;
+  font-family: Sansation;
+  color: white;
+  font-size: 19px;
+  transform: translateY(20px);
+}
+.location-home {
+  font-family: Tilt Warp; /* Ensure the font is properly loaded */
+  color: white;
+  position: absolute;
+  left: 755px; /* Moves the element to the right */
+  top: -10px; /* Adjust vertical positioning as needed */
+}
+.map {
+  width: 356px; /* X-axis (width) */
+  height: 50px;
+  padding-left: 480px;
+  transform: scale(2.5);
+  padding-top: 68px;
+}
+.contact-info {
+  font-family: Tilt Warp;
+  color: white;
+  position: absolute;
+  left: 1180px;
+  top: -10px;
+  display: inline-block;
+}
+.locationmap {
+  transform: scale(0.5); /* Reduces the size by 50% */
+  margin-bottom: 9px;
+  border-radius: 10px;
+  margin-left: 1000px;
+  margin-top: 25px;
+}
+.loctext {
+  margin-left: 960px;
+  margin-top: -219px;
+  font-family: Sansation;
+  color: #fffcfc;
+  align-items: center;
+  font-weight: normal;
+  width: 304px;
+  height: 38px;
+  font-size: 18px;
+}
+.phone {
+  width: 31px; /* X-axis (width) */
+  height: 30px;
+  padding-left: 1420px;
+  transform: scale(0.4);
+  padding-top: 140px;
+}
+.phonenum {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 960px;
+  margin-top: -10px;
+  font-weight: normal;
+}
+.mobile {
+  width: 43px;
+  height: 30px;
+  padding-left: 1340px;
+  transform: scale(0.5);
+  padding-top: 250px;
+}
+.mob {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 970px;
+  margin-top: -125px;
+  font-weight: normal;
+}
+.email {
+  width: 43px;
+  height: 30px;
+  padding-left: 1340px;
+  transform: scale(0.5);
+  padding-top: 380px;
+}
+.emaill {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 970px;
+  margin-top: -110px;
+  font-weight: normal;
+}
+.Copyright {
+  font-family: sansation;
+  font-size: 20px;
+  margin-top: -155px;
+  color: white;
+}
+

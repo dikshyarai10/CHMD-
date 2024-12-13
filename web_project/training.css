@@ -1,0 +1,673 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+nav {
+  background-color: #05a4e5;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+nav a {
+  padding-top: 1em;
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 7px solid rgb(0, 0, 0);
+  padding-bottom: 36px;
+  margin-bottom: 0;
+}
+
+nav a button {
+  background-color: #009d4f;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 1px;
+  border-color: white;
+}
+
+.navtext {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.nav-logo {
+  width: 15vh;
+  height: 10vh;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+.tariningpic {
+  width: 1535px;
+  height: 618px;
+}
+.ourcommunity h3 {
+  font-family: Passion one;
+  font-weight: bold;
+  color: white;
+  margin-top: -450px;
+  font-size: 50px;
+  margin-left: 150px;
+}
+.ourcommunity p {
+  font-family: Sansation;
+  font-weight: lighter;
+  color: white;
+  margin-left: 150px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.ourcommunity h5 {
+  font-family: Sansation;
+  font-weight: lighter;
+  color: white;
+  margin-left: 150px;
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 20%;
+  font-weight: 100px;
+  line-height: 38px;
+  text-align: left;
+  letter-spacing: 6%;
+  align-items: center;
+}
+.text h3 {
+  margin-left: 450px;
+  margin-top: 200px;
+  font-family: Palatino Linotype;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.text p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 35.9px;
+  letter-spacing: 6%;
+  align-items: center;
+}
+.firstp {
+  width: 479px;
+  height: 450px;
+  transform: translateX(200px);
+}
+*/ .secondp {
+  width: 479px;
+  height: 450px;
+  transform: translateX(450px);
+}
+
+.box {
+  width: 355px;
+  height: 370px;
+  background-color: #e8eff3;
+  line-height: 200px;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Distributes space between content */
+  padding: 20px;
+  margin-left: 285px;
+  opacity: 100%;
+  box-shadow: 12px 12px rgb(203, 202, 202);
+}
+.box2 {
+  width: 355px;
+  height: 370px;
+  background-color: #e8eff3;
+  line-height: 200px;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Distributes space between content */
+  padding: 20px;
+  margin-left: 890px;
+  opacity: 100%;
+  box-shadow: 12px 12px rgb(203, 202, 202);
+  margin-top: -685px;
+}
+.firstmini {
+  width: 393px; /* Width of the image */
+  height: 250px; /* Height of the image */
+  transform: translateY(
+    -409px
+  ); /* Moves the image upward within the .firstp box */
+  opacity: 100%; /* Ensures full visibility */
+  /* Makes sure the image is on top */
+  position: absolute; /* Makes the image move independently from .firstp */
+  margin-left: 285px;
+}
+
+.jdiploma {
+  width: 239px;
+  height: 103px;
+  opacity: 100%;
+  font-family: Palatino Linotype;
+  font-size: 30px;
+  transform: translateY(-190px);
+  margin-left: 300px;
+  font-weight: lighter;
+}
+.paradiploma {
+  font-family: Raleway;
+  transform: translateY(-275px);
+  margin-left: 300px;
+  font-size: 15px;
+  opacity: 100%;
+  word-spacing: 2px;
+}
+.diplomadetails {
+  font-family: Raleway;
+  transform: translateY(-285px);
+  margin-left: 300px;
+  font-size: 15px;
+  opacity: 100%;
+  font-weight: lighter;
+  word-spacing: 2px;
+}
+
+.secondmini {
+  width: 395px; /* Width of the image */
+  height: 233px; /* Height of the image */
+  transform: translateY(
+    -408px
+  ); /* Moves the image upward within the .firstp box */
+  opacity: 100%; /* Ensures full visibility */
+  /* Makes sure the image is on top */
+  position: absolute; /* Makes the image move independently from .firstp */
+  margin-left: 890px;
+}
+.sdiploma {
+  width: 239px;
+  height: 103px;
+  opacity: 100%;
+  font-family: Palatino Linotype;
+  font-size: 30px;
+  transform: translateY(-200px);
+  margin-left: 900px;
+  font-weight: lighter;
+  line-height: 23px;
+  letter-spacing: 8%;
+}
+.parasdiploma {
+  font-family: Raleway;
+  transform: translateY(-285px);
+  margin-left: 897px;
+  font-size: 15px;
+  opacity: 100%;
+  word-spacing: 2px;
+  font-style:initial;
+  line-height: 23px;
+  letter-spacing: 8%;
+}
+.smallbox{
+  width: 66px;
+  height: 61px;
+  margin-top: -550px;
+  margin-left: 150px;
+  }
+.smallbox2{
+  width: 66px;
+  height: 61px;
+  margin-top: -65px;
+  margin-left: 1385px;
+}
+.arrow1{
+  width: 28px;
+  height: 23px;
+  transform: translateY(-48px);
+  margin-left: 15px;
+}
+.arrow2{
+  width: 28px;
+  height: 23px;
+  transform: translateY(-49px);
+  margin-left:15px;
+  
+}
+
+.regist{
+  width: 1491px;
+  height: 850px;
+  background-color: #D9D9D9;
+  line-height: 200px;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Distributes space between content */
+  padding: 20px;
+  margin-top: 255px;
+  opacity: 100%;
+}
+.regist h3{
+  font-family: Sansation;
+  font-size: 33px;
+  text-align: left;
+  letter-spacing: 6%;
+  color:black; /* Text color for visibility (adjust as needed) */
+  position: absolute; /* Position the text relative to the parent container */
+  left: 10%; /* Adjust horizontal placement */
+  top: 185%;
+}
+.regist p{
+  display: inline-block;
+  font-family: Sansation Light;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 6%;
+  line-height: 49.9px;
+  color: black;
+  position: absolute;
+  margin-bottom:750px;
+  margin-left: 130px;
+}
+.boxx{
+  width: 5px;
+  height: 106px;
+  background-color: rgb(24, 151, 201);
+  margin: 10px 0;
+  position: absolute; /* Allows precise placement */
+  left: 8%; /* Aligns the element to the right edge */
+  margin-bottom: 750px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 80px; /* Space between the fields */
+  margin-bottom: 600px;
+  margin-left: 100px;
+}
+
+.name-field, .name-field1, .name-field2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name-field h5, .name-field1 h5, .name-field2 h5 {
+  margin: 0 0 -52px 0; /* Adjust spacing for labels */
+  font-size: 15px;
+  font-family: Sansation;
+}
+
+.namebox, .namebox2, .namebox3, .namebox4, .namebox5 {
+  width: 386px;
+  height: 37px;
+  background-color: #FFFFFF;
+  border: white solid;
+}
+
+.contact-field h5{
+  
+  margin-left: 125px;
+  margin-right: 0;
+  margin-top: -608px;
+  font-family: Sansation;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 6%;
+
+  
+}
+.numberbox{
+  width: 386px;
+  height: 37px;
+  background-color:#FFFFFF;
+  margin: 10px 0;
+  position: absolute; /* Allows precise placement */
+  left: 8%; /* Aligns the element to the right edge */
+  margin-bottom: 120px;
+}
+.email-field{
+  margin-left: 600px;
+  margin-top: -630px;
+  font-family: Sansation;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 6%;
+}
+.contact-field, .email-field{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-field h5, .email-field h5{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.namebox4{
+  margin-left: 120px;
+  margin-right: 0px;
+}
+.program{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 120px;
+  margin-top: 10px;
+  font-family: Sansation;
+  font-size: 19px;
+  text-align: left;
+  letter-spacing: 6%;
+}
+.program p{
+  margin-top: -43px;
+  margin-left: 163px;
+  font-size: 14px;
+}
+.namebox6{
+  margin-right: 0px;
+  width: 857px;
+  height: 37px;
+  background-color: #FFFFFF;
+  border: white solid;
+}
+/* Style for the radio button */
+input[type="radio"] {
+  appearance: none; /* Removes default styling */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  width: 20px;
+  height: 20px;
+  border: 2px solid white; /* Changed to black for visibility */
+  border-radius: 3px; /* Makes it a box */
+  background-color:white; /* Transparent background */
+  outline: none;
+  cursor: pointer;
+}
+
+/* Add a background color when selected */
+input[type="radio"]:checked {
+  background-color:blue; /* Black background for visibility */
+  border-color: white; /* Optional contrast when checked */
+}.Preferred h5{
+  font-family: Sansation;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.Preferred {
+  display: flex;
+  align-items: center;
+  gap: 80px; /* Space between the fields */
+  margin-bottom: -155px;
+  margin-left: 100px;
+}
+
+.paragraph p {
+  margin: 0;
+  font-size: 15px;
+  font-family: Sansation;
+  display: flex;
+  flex-direction: row; /* Ensure all elements are in a row */
+  align-items: center; /* Vertically center the radio buttons */
+  gap: 20px; /* Adjust gap between radio buttons and labels */
+  margin-top: 900px; /* Add space to move the options down */
+}
+
+/* Style for radio buttons */
+.paragraph1 input[type="radio"] {
+  margin-right: 10px; /* Small space between radio button and label */
+}
+.Notes{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 120px;
+  margin-top: 140px;
+  font-family: Sansation;
+  font-size: 19px;
+  text-align: left;
+  letter-spacing: 6%;
+}
+.namebox9{
+  margin-right: 0px;
+  width: 857px;
+  height: 104px;
+  background-color: #FFFFFF;
+  border: white solid;
+}
+.submit-button {
+  margin-top: 50px; /* Adds space below the submit button */
+  margin-left: 130px;
+  background-color: #009d4f;
+  height: 51px;
+  width: 149px;
+  border: black;
+  color: white;
+  font-size: 20px;
+}
+.testinonial {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin: 50px auto; /* Center horizontally and add top spacing */
+  padding: 20px;
+  width: 100%; /* Set the div to use half of its current width */
+  background-color: lightskyblue; /* Optional background for visibility */
+  box-sizing: border-box; /* Include padding in width */
+}
+.line{
+  width: 80px;
+  height: 5px;
+  background-color:black;
+  margin: 10px 0;
+  position: absolute; /* Allows precise placement */
+  left: 8%; /* Aligns the element to the right edge */
+  margin-bottom: 675px;
+  margin-left: 470px;
+}
+.line2{
+  width: 80px;
+  height: 5px;
+  background-color:black;
+  margin: 10px 0;
+  position: absolute; /* Allows precise placement */
+  left: 8%; /* Aligns the element to the right edge */
+  margin-top: -565px;
+  margin-left: 730px;
+}
+.line{
+  margin-top: 100px;
+}
+
+.testinonial h3 {
+  font-family: "Palatino Linotype", serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0; /* Space around the heading */
+  color: #333; /* Text color */
+}
+
+.testinonial .paragraph {
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5; /* Improve readability */
+  margin: 10px 20px;
+  /* margin-top: -60%;  */
+  color: #555; /* Text color */
+}
+
+.testinonial .testname {
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5; /* Improve readability */
+  margin: 10px 20px;
+  color: #555; /* Text color */
+}
+
+.testinonial .photo {
+  width: 350px; /* Set width for the photo */
+  height: 400px; /* Set height for the photo */
+  background-color: #fff; /* Placeholder color */
+  margin: 15px 0; /* Space around the photo */
+}
+
+ 
+.Contacthome {
+  width: 1220px; /* Use percentage for responsiveness */
+  height: 440px;
+  display: block; /* `inline-block` is unnecessary for this layout */
+  border: 2px solid #05a4e5;
+  padding: 5px 100px 5px 200px; /* Shortened padding syntax */
+  margin: 40px auto 20px; /* Center the box and add vertical spacing */
+  background-color: #05a4e5; /* Hex value corrected (missing #) */
+  position: relative;
+}
+.Contacthome img {
+  position: absolute; /* Or use 'fixed' if it should stay at the same position on the screen */
+  left: 23px; /* X-coordinate */
+  height: 90px;
+  width: 120px;
+  padding-right: 160px;
+}
+.Contacthome h4 {
+  margin-bottom: 50px;
+  position: absolute;
+  font-weight: 20px;
+  left: 25px;
+  top: 80px;
+  color: white;
+  font-family: Sansation;
+  font-weight: bold;
+  font-weight: 16px;
+  margin-bottom: 20px;
+}
+.quick {
+  font-family: Tilt Warp;
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: -10px;
+}
+.Contacthome a {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Center vertically */
+  height: 40px; /* Full screen height for centering */
+  padding-right: 790px;
+  padding-top: 10px;
+  font-family: Sansation;
+  color: white;
+  font-size: 19px;
+  transform: translateY(20px);
+}
+.location-home {
+  font-family: Tilt Warp; /* Ensure the font is properly loaded */
+  color: white;
+  position: absolute;
+  left: 755px; /* Moves the element to the right */
+  top: -10px; /* Adjust vertical positioning as needed */
+}
+.map {
+  width: 356px; /* X-axis (width) */
+  height: 50px;
+  padding-left: 480px;
+  transform: scale(2.5);
+  padding-top: 68px;
+}
+.contact-info {
+  font-family: Tilt Warp;
+  color: white;
+  position: absolute;
+  left: 1180px;
+  top: -10px;
+  display: inline-block;
+}
+.locationmap {
+  transform: scale(0.5); /* Reduces the size by 50% */
+  margin-bottom: 9px;
+  border-radius: 10px;
+  margin-left: 1000px;
+  margin-top: 25px;
+}
+.loctext {
+  margin-left: 960px;
+  margin-top: -219px;
+  font-family: Sansation;
+  color: #fffcfc;
+  align-items: center;
+  font-weight: normal;
+  width: 304px;
+  height: 38px;
+  font-size: 18px;
+}
+.phone {
+  width: 31px; /* X-axis (width) */
+  height: 30px;
+  padding-left: 1420px;
+  transform: scale(0.4);
+  padding-top: 140px;
+}
+.phonenum {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 960px;
+  margin-top: -10px;
+  font-weight: normal;
+}
+.mobile {
+  width: 43px;
+  height: 30px;
+  padding-left: 1340px;
+  transform: scale(0.5);
+  padding-top: 250px;
+}
+.mob {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 970px;
+  margin-top: -125px;
+  font-weight: normal;
+}
+.email {
+  width: 43px;
+  height: 30px;
+  padding-left: 1340px;
+  transform: scale(0.5);
+  padding-top: 380px;
+}
+.emaill {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 970px;
+  margin-top: -110px;
+  font-weight: normal;
+}
+.Copyright {
+  font-family: sansation;
+  font-size: 20px;
+  margin-top: -155px;
+  color: white;
+}
+

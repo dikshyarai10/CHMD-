@@ -1,0 +1,592 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #05a4e5;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+nav a {
+  padding-top: 1em;
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 7px solid rgb(0, 0, 0);
+  padding-bottom: 36px;
+  margin-bottom: 0;
+}
+
+nav a button {
+  background-color: #009d4f;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 1px;
+  border-color: white;
+}
+
+.navtext {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.nav-logo {
+  width: 15vh;
+  height: 10vh;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+
+.admi h1 {
+  margin-left: 580px;
+  font-family: Suez One;
+  letter-spacing: 6%;
+}
+.admi h2 {
+  margin-left: 40px;
+  font-family: Suez One;
+  letter-spacing: 6%;
+}
+.admission-section {
+  display: flex; /* Align children in a row */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Create consistent spacing between the list and image */
+  max-width: 900px; /* Limit the width of the section */
+  margin: auto; /* Center the section on the page */
+}
+.admi .admissionp1 {
+  font-family: Sansation;
+  font-size: 21px;
+  letter-spacing: 6%;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.admission-list {
+  list-style-type: disc; /* Keep the default bullet styling */
+  margin-left: -300px; /*Remove default margins */
+  padding-left: 350px;
+  flex: 2; /* Allow the list to take up more space */
+  line-height: 2; /* Adjust line height for readability */
+  display: flex;
+  flex-direction: column;
+  margin-right: 30%;
+  padding-right: 50px;
+  margin-top: -30px; /* Move the list up by 30px */
+  font-family: Sanasation;
+  font-size: 20px;
+  opacity: 100%;
+}
+.adimg1 {
+  text-align: right; /* Align the image container to the right */
+  margin-left: 80%;
+  margin-top: -250px;
+}
+
+.adimg1 img {
+  width: 390px; /* Adjust image size */
+  height: 277px; /* Maintain aspect ratio */
+  opacity: 100%;
+}
+.saarc {
+  display: flex; /* Arrange images in a row */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically */
+  position: relative; /* Establish a stacking context */
+}
+
+.saarc .firstphoto {
+  width: 390px;
+  height: 390px;
+  margin-right: -90px; /* Overlap with the second image */
+  position: relative; /* Ensure z-index works */
+  z-index: 2; /* Place above thirdphoto */
+  border-radius: 15px; /* Smooth corners */
+}
+
+.saarc .secondphoto {
+  width: 450px;
+  height: 350px;
+  position: relative; /* Ensure z-index works */
+  z-index: 3; /* Place above firstphoto and thirdphoto */
+  border-radius: 15px; /* Smooth corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for emphasis */
+}
+
+.saarc .thirdphoto {
+  width: 390px;
+  height: 390px;
+  margin-left: -90px; /* Overlap with the second image */
+  position: relative; /* Ensure z-index works */
+  z-index: 1; /* Place below firstphoto */
+  border-radius: 15px; /* Smooth corners */
+  margin-bottom: 20px;
+}
+.saarcdescribe {
+  text-align: center;
+  letter-spacing: 6%;
+  line-height: 37.6px;
+  font-family: Sansation;
+  font-size: 20px;
+}
+
+.regist {
+  width: 1491px;
+  height: 950px;
+  background-color: #d9d9d9;
+  line-height: 200px;
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: space-between; /* Distributes space between content */
+  padding: 20px;
+  margin-top: 55px;
+  opacity: 100%;
+}
+.regist h3 {
+  font-family: Sansation;
+  font-size: 33px;
+  text-align: left;
+  letter-spacing: 6%;
+  color: black; /* Text color for visibility (adjust as needed) */
+  position: absolute; /* Position the text relative to the parent container */
+  left: 10%; /* Adjust horizontal placement */
+  top: 130%;
+}
+.regist p {
+  display: inline-block;
+  font-family: Sansation Light;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 6%;
+  line-height: 49.9px;
+  color: black;
+  position: absolute;
+  margin-bottom: 860px;
+  margin-left: 130px;
+}
+.regist h4 {
+  font-family: Sansation;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 6%;
+  color: black; /* Text color for visibility (adjust as needed) */
+  position: absolute; /* Position the text relative to the parent container */
+  left: 10%; /* Adjust horizontal placement */
+  top: 145%;
+  font-style: initial;
+}
+.boxx {
+  width: 5px;
+  height: 100px;
+  background-color: rgb(24, 151, 201);
+  margin: 10px 0;
+  position: absolute; /* Allows precise placement */
+  left: 8%; /* Aligns the element to the right edge */
+  margin-bottom: 890px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 80px; /* Space between the fields */
+  margin-bottom: 530px;
+  margin-left: 100px;
+}
+
+.name-field,
+.name-field1,
+.name-field2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name-field h5,
+.name-field1 h5,
+.name-field2 h5 {
+  margin: 0 0 -52px 0; /* Adjust spacing for labels */
+  font-size: 17px;
+  font-family: Sansation;
+  margin-bottom: -80px;
+  margin-left: 15px;
+  font-weight: lighter;
+}
+
+.namebox,
+.namebox2,
+.namebox3 {
+  width: 386px;
+  height: 37px;
+  background-color: #ffffff;
+  border: white solid;
+  margin-bottom: 150px;
+}
+
+.contact-field h5 {
+  margin-left: 125px;
+  margin-right: 0;
+  margin-top: -720px;
+  font-family: Sansation;
+  font-size: 17px;
+  text-align: left;
+  letter-spacing: 6%;
+  font-weight: lighter;
+}
+.contact-field .namebox4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 120px;
+  margin-top: -20px;
+  font-family: Sansation;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 6%;
+  width: 386px;
+  height: 37px;
+  background-color: #ffffff;
+  border: white solid;
+  margin-bottom: 150px;
+}
+.email-field {
+  margin-left: 610px;
+  margin-top: -750px;
+  font-family: Sansation;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 6%;
+  font-weight: lighter;
+}
+.contact-field,
+.email-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-field h5,
+.email-field h5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: lighter;
+}
+.namebox5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -20px;
+  margin-top: -20px;
+  font-family: Sansation;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 6%;
+  width: 386px;
+  height: 37px;
+  background-color: #ffffff;
+  border: white solid;
+  margin-bottom: 150px;
+}
+.child h4 {
+  font-family: Sansation;
+  font-size: 21px;
+  text-align: left;
+  letter-spacing: 6%;
+  color: black; /* Text color for visibility (adjust as needed) */
+  position: absolute; /* Position the text relative to the parent container */
+  left: 10%; /* Adjust horizontal placement */
+  top: 193%;
+  font-style: normal;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  gap: 80px; /* Space between the fields */
+  margin-bottom: 400px;
+  margin-left: 110px;
+}
+
+.name-fieldd h5,
+.name-fielddd h5 {
+  margin: 0 0 -52px 0; /* Adjust spacing for labels */
+  font-size: 17px;
+  font-family: Sansation;
+  transform: translateY(-50px);
+  margin-left: 7px;
+  font-weight: lighter;
+}
+
+.nameboxx,
+.nameboxxx {
+  width: 386px;
+  height: 37px;
+  background-color: #ffffff;
+  border: white solid;
+  /* Optional alternative approach */
+  transform: translateY(30px);
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  gap: 100px; /* Space between the fields */
+  margin-bottom: 400px;
+  margin-left: 110px;
+}
+
+.dateof h5,
+.class h5 {
+  margin: 0 0 -52px 0; /* Adjust spacing for labels */
+  font-size: 17px;
+  font-family: Sansation;
+  transform: translateY(-350px);
+  margin-left: 5px;
+  font-weight: lighter;
+}
+
+.namebox11,
+.namebox22 {
+  width: 386px;
+  height: 37px;
+  background-color: #ffffff;
+  border: white solid;
+  /* Optional alternative approach */
+  transform: translateY(-280px);
+  margin-right: -10px;
+  /* Style for the radio button */
+}
+input[type="radio"] {
+  appearance: none; /* Removes default styling */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  width: 20px;
+  height: 20px;
+  border: 2px solid white; /* Changed to black for visibility */
+  border-radius: 3px; /* Makes it a box */
+  background-color: white; /* Transparent background */
+  outline: none;
+  cursor: pointer;
+}
+
+/* Add a background color when selected */
+input[type="radio"]:checked {
+  background-color: blue; /* Black background for visibility */
+  border-color: white; /* Optional contrast when checked */
+}
+.Preferred h5 {
+  font-family: Sansation;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.Preferred {
+  display: flex;
+  align-items: center;
+  gap: 80px; /* Space between the fields */
+  margin-top: -650px;
+  margin-left: 95px;
+}
+
+.preferred p {
+  margin: 0;
+  font-size: 15px;
+  font-family: Sansation;
+  display: flex;
+  flex-direction: row; /* Ensure all elements are in a row */
+  align-items: center; /* Vertically center the radio buttons */
+  gap: 20px; /* Adjust gap between radio buttons and labels */
+  margin-bottom: -1000px; /* Add space to move the options down */
+}
+
+/* Style for radio buttons */
+.paragraph1 input[type="radio"] {
+  margin-right: 10px; /* Small space between radio button and label */
+}
+.Notes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 110px;
+  margin-top: -10px;
+  font-family: Sansation;
+  font-size: 19px;
+  text-align: left;
+  letter-spacing: 6%;
+}
+.namebox9 {
+  margin-right: 0px;
+  width: 857px;
+  height: 104px;
+  background-color: #ffffff;
+  border: white solid;
+}
+.submit-button {
+  margin-top: 12px; /* Adds space below the submit button */
+  margin-left: 130px;
+  background-color: #009d4f;
+  height: 51px;
+  width: 149px;
+  border: black;
+  color: white;
+  font-size: 20px;
+}
+
+.Contacthome {
+  width: 1220px; /* Use percentage for responsiveness */
+  height: 440px;
+  display: block; /* `inline-block` is unnecessary for this layout */
+  border: 2px solid #05a4e5;
+  padding: 5px 100px 5px 200px; /* Shortened padding syntax */
+  margin: 80px auto 20px; /* Center the box and add vertical spacing */
+  background-color: #05a4e5; /* Hex value corrected (missing #) */
+  position: relative;
+}
+.Contacthome img {
+  position: absolute; /* Or use 'fixed' if it should stay at the same position on the screen */
+  left: 23px; /* X-coordinate */
+  height: 90px;
+  width: 120px;
+  padding-right: 160px;
+}
+.Contacthome h4 {
+  margin-bottom: 50px;
+  position: absolute;
+  font-weight: 20px;
+  left: 25px;
+  top: 80px;
+  color: white;
+  font-family: Sansation;
+  font-weight: bold;
+  font-weight: 16px;
+  margin-bottom: 20px;
+}
+.quick {
+  font-family: Tilt Warp;
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: -10px;
+}
+.Contacthome a {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Center vertically */
+  height: 40px; /* Full screen height for centering */
+  padding-right: 790px;
+  padding-top: 10px;
+  font-family: Sansation;
+  color: white;
+  font-size: 19px;
+  transform: translateY(20px);
+}
+.location-home {
+  font-family: Tilt Warp; /* Ensure the font is properly loaded */
+  color: white;
+  position: absolute;
+  left: 755px; /* Moves the element to the right */
+  top: -10px; /* Adjust vertical positioning as needed */
+}
+.map {
+  width: 356px; /* X-axis (width) */
+  height: 50px;
+  padding-left: 480px;
+  transform: scale(2.5);
+  padding-top: 68px;
+}
+.contact-info {
+  font-family: Tilt Warp;
+  color: white;
+  position: absolute;
+  left: 1180px;
+  top: -10px;
+  display: inline-block;
+}
+.locationmap {
+  transform: scale(0.5); /* Reduces the size by 50% */
+  margin-bottom: 9px;
+  border-radius: 10px;
+  margin-left: 1000px;
+  margin-top: 25px;
+}
+.loctext {
+  margin-left: 960px;
+  margin-top: -219px;
+  font-family: Sansation;
+  color: #fffcfc;
+  align-items: center;
+  font-weight: normal;
+  width: 304px;
+  height: 38px;
+  font-size: 18px;
+}
+.phone {
+  width: 31px; /* X-axis (width) */
+  height: 30px;
+  padding-left: 1420px;
+  transform: scale(0.4);
+  padding-top: 140px;
+}
+.phonenum {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 960px;
+  margin-top: -10px;
+  font-weight: normal;
+}
+.mobile {
+  width: 43px;
+  height: 30px;
+  padding-left: 1340px;
+  transform: scale(0.5);
+  padding-top: 250px;
+}
+.mob {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 970px;
+  margin-top: -125px;
+  font-weight: normal;
+}
+.email {
+  width: 43px;
+  height: 30px;
+  padding-left: 1340px;
+  transform: scale(0.5);
+  padding-top: 380px;
+}
+.emaill {
+  width: 477px;
+  height: 174px;
+  color: white;
+  font-family: Sansation;
+  font-size: 18px;
+  margin-left: 970px;
+  margin-top: -110px;
+  font-weight: normal;
+}
+.Copyright {
+  font-family: sansation;
+  font-size: 20px;
+  margin-top: -155px;
+  color: white;
+}

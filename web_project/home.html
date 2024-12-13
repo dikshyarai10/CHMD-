@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHMD</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navtext">
+        <a href="home.html">HOME</a>
+        <a href="admission.html">ADMISSION</a>
+        <a href="ourcom.html">OUR COMMUNITY</a>
+        <a href="training.html">TRAINING</a>
+        <a href="aboutus.html">ABOUT US</a>
+        <a href="notices.html">NOTICES</a>
+        <a href="login.html"><button>LOG IN</button></a>
+      </div>
+      <img src="images/logo.jpg" alt="CHMD Logo" class="nav-logo" />
+    </nav>
+    <div class="carousel">
+      <div class="carousel-images">
+        <img src="images/homeimg1.jpg" alt="Image 1" />
+        <img src="images/homeimg2.jpg" alt="Image 2" />
+        <img src="images/homeimg3.jpg" alt="Image 3" />
+      </div>
+    </div>
+    <div class="welcome">
+      <h2>Welcome to Children House Elementary School</h2>
+    </div>
+    <div class="start">
+      <h4>
+        “At Children’s House Montessori, we believe that each child is a unique
+        individual who needs a secure, caring, and stimulating atmosphere to
+        grow emotionally, intellectually, and socially. Our Montessori-based
+        approach to education is designed to foster independence, critical
+        thinking, and a lifelong love of learning. From ages 2 to 9, we offer an
+        enriching curriculum that inspires students to explore, discover, and
+        engage with the world around them.”
+      </h4>
+    </div>
+    <div class="image-container">
+      <div class="first">
+        <img src="images/Rectangle 3.png" alt="SCL" />
+      </div>
+      <div class="second">
+        <img src="images/Rectangle 4.png" alt="HOL" />
+      </div>
+      <div class="third">
+        <img src="images/Rectangle 5.png" alt="SFL" />
+      </div>
+    </div>
+
+    <div class="one">
+      <img src="images/rect3.png" alt="symbol">
+      <h3>Student Centered Learning</h3>
+    </div>
+    <div class="two">
+      <img src="images/rect 4.png" alt="symbol">
+      <h3>Hands-On Activities</h3>
+    </div>
+    <div class="three">
+      <img src="images/rect5.png" alt="symbol">
+      <h3>Strong Foundation For<br> Lifelong Learning</h3>
+    </div>
+    <div class="community">
+      <div class="community-content">
+        <!-- Inline Box on the Left -->
+        <span class="inline-box"></span>
+        <img src="images/Group.png" alt="photo">
+        <!-- Text Content -->
+         <span class="smallbox"></span>
+        <div class="text-content">
+          <h2>JOIN OUR CHILDREN HOUSE FAMILY</h2>
+          <h4>
+            “At Children’s House Montessori, we believe that each child is a unique individual who needs a secure, caring, and stimulating atmosphere to grow emotionally, intellectually, and socially. Our Montessori-based approach to education is designed to foster independence, critical thinking, and a lifelong love of learning. From ages 2 to 9, we offer an enriching curriculum that inspires students to explore, discover, and engage with the world around them.”
+          </h4>
+          <h3>-BY--PARENT</h3>
+        </div>
+      </div>
+        </div>
+        <div class="Contacthome">
+          <img src="images/logo.jpg" alt="CHM">
+          <h4> CHILDREN'S HOUSE MONTESSORI <br> ELEMENTARY SCHOOL</h4>
+          <h2 class="quick"> Quick Links</h2>
+          <h2 class="contact-info"> Contact Info</h2>
+        
+        <img src="images/Frame.png" alt="location" class="locationmap"> 
+        <img src="images/map.png" alt="Location" class="map">
+        <img src="images/phone.png" alt="phone" class="phone">
+        <img src="images/Frame (2).png" alt="Mobilenumber" class="mobile">
+        <img src="images/Frame (3).png" alt="Email" class="email">
+        <div class="navtext">
+          <a href="home.html">Home</a>
+        <a href="admission.html">Admission</a>
+        <a href="ourcom.html">Our Community</a>
+        <a href="training.html">Training</a>
+        <a href="aboutus.html">About us</a>
+        <h2 class="location-home">Location</h2>  
+        </div>
+        <h6 class="loctext">Pindesori chowk, Dharan-15, Sunsari  Koshi Province, Nepal</h6>
+        <h6 class="phonenum"> Phone:<br> 025-533244</h6>
+        <h6 class="mob">Mobile: <br> 9842064265, 9804368094</h6>
+        <h6 class="emaill">Childrenhouse2016@gmail.com</h6>
+        <h6 class="Copyright"> Copyright © CHILDREN HOUSE MONTESSORI ELEMENTARY SCHOOL 2024 | Designed & Developed By BDNP</h6>
+        </div>
+    
+        <script>
+          let index = 0;
+          const images = document.querySelectorAll(".carousel-images img");
+          const totalImages = images.length;
+      
+          function showNextImage() {
+            index = (index + 1) % totalImages;
+            const offset = -index * 100;
+            document.querySelector(".carousel-images").style.transform = `translateX(${offset}%)`;
+          }
+      
+          setInterval(showNextImage, 5000); // Change image every 3 seconds
+        </script>
+  </body>
+</html>

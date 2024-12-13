@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion Page</title>
+    <link rel="stylesheet" href="discussion.css" />
+    <script src="discussion.js"></script>
+  </head>
+  <body>
+    <nav>
+      <img
+        src="/CHMD-/web_project/images/logo.jpg"
+        alt="CHMD Logo"
+        class="nav-logo"
+      />
+      <h5>
+        Children's House Montessori <br />
+        Elementary School
+      </h5>
+      <div class="teacher">
+        <img
+          src="/CHMD-/web_project/images/teacherimg.png"
+          alt="teacher"
+          width="64px"
+          height="58px"
+          class="teacherimg"
+        />
+        <p>Teacher Nilima Rai</p>
+        <img
+          src="/CHMD-/teacher_portal/timages/notification.png"
+          alt="notification_bell"
+          class="bell"
+          width="30px"
+          height="26px"
+        />
+        <img
+          src="/CHMD-/teacher_portal/timages/Message.png"
+          alt="message_icon"
+          class="msgicon"
+          width="24"
+          height="18"
+        />
+      </div>
+    </nav>
+    <div class="menubox">
+      <div class="menuchmd">
+        <img
+          src="/CHMD-/teacher_portal/timages/menu1.png"
+          alt="data"
+          class="menudata"
+        />
+        <p class="menudata_name">CHM</p>
+        <img
+          src="/CHMD-/teacher_portal/timages/menu2.png"
+          alt="menudataicon"
+          class="menudata_icon"
+        />
+        <div class="dash1">
+          <a href="dashboard.html">
+            <img
+              src="/CHMD-/teacher_portal/timages/dash1.png"
+              alt="dashicon"
+              class="dashicon"
+            />
+            <p>Dashboard</p>
+          </a>
+        </div>
+        <div class="dash2">
+          <a href="inquiry.html">
+            <img
+              src="/CHMD-/teacher_portal/timages/enquiryicon.png"
+              alt="enqicon"
+              class="enquiryicon"
+            />
+            <p>Inquiry</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="branchname">
+      <h2>CHM Teacher/Administrative Staff Branch</h2>
+    </div>
+    <div class="discussionname"><h3>Discussion</h3></div>
+    <div class="sort-box2">
+      <label for="sort-area">Select Class</label>
+      <select id="sort-area">
+        <option value="PG">Play Group</option>
+        <option value="Foundation">Foundation</option>
+        <option value="Pre-I">Pre-I</option>
+        <option value="Pre-II">Pre-II</option>
+        <option value="one">class 1</option>
+        <option value="two">class 2</option>
+        <option value="three">class 3</option>
+        <option value="four">class 4</option>
+        <option value="five">class 5</option>
+      </select>
+    </div>
+    <div class="rect1"></div>
+    <div class="post-input">
+      <textarea id="mainPost" placeholder="Add discussion"></textarea>
+      <button class="postbutton" onclick="addPost()">
+        <img src="/CHMD-/teacher_portal/timages/postbutton.png" />
+      </button>
+    </div>
+    <div class="discussion-board">
+      <h3>Previous discussions:</h3>
+
+      <div id="posts" class="posts">
+        <!-- Example of a post structure -->
+        <div class="post">
+          <div class="post-header">
+            <img
+              src="/CHMD-/web_project/images/teacherimg.png"
+              alt="User Icon"
+              class="user-icon"
+            />
+            <p class="post-user">Teacher Nilima Rai</p>
+          </div>
+          <p class="post-text">Wear track suit for coming Friday.</p>
+          <button
+            class="reply-button"
+            onclick="toggleReplyInput(this.parentElement)"
+          >
+            Reply
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
