@@ -7,6 +7,12 @@
         <mxCell id="MOwVqs5IYtBJF2iBXdzO-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="40" width="640" height="640" as="geometry" />
         </mxCell>
+        <mxCell id="MOwVqs5IYtBJF2iBXdzO-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MOwVqs5IYtBJF2iBXdzO-4" value="Browser&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="120" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
